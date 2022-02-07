@@ -1,1 +1,1 @@
-# tatraja
+This is a website build in React, by Zealand institute students, for minting products of a new startup company TATRAJA.
