@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className="text-3xl font-light underline">
-          Testing TailWind
+    <div className="flex flex-col justify-center items-center Hero"> 
+        <div className="text-3xl text-gray-light font-light underline">
+          <a
+           href="https://tailwindcss.com/docs"
+           target="_blank"
+            rel="noopener noreferrer"
+           >
+             Learn TailWind</a>
         </div>
+        <br/>
         <a
-          className="App-link"
+          className="text-3xl text-gray-light font-light underline"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }
