@@ -1,27 +1,22 @@
 import './App.css';
+import HeroSection from './components/HeroSection.js';
+import Box from './components/Box.js';
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center Hero"> 
-        <div className="text-3xl text-gray-light font-light underline">
-          <a
-           href="https://tailwindcss.com/docs"
-           target="_blank"
-            rel="noopener noreferrer"
-           >
-             Learn TailWind</a>
-        </div>
-        <br/>
-        <a
-          className="text-3xl text-gray-light font-light underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="flex-col justify-center"> 
+  <HeroSection></HeroSection>
+    <Canvas className='canvas'>
+      <OrbitControls enableZoom={false} />
+      <directionalLight position={[-2 , -5 , 2]} intensity={1}/>
+      <directionalLight position={[-2 , 5 , 2]} intensity={1}/>
+      <Box />
+    </Canvas>
     </div>
   );
 }
 
 export default App;
+
