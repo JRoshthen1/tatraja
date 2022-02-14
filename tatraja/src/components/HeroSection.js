@@ -4,7 +4,7 @@ function HeroSection() {
 
 
   return (
-    <div className='flex-col justify-center text-center items-center'>
+    <div className='flex-col  justify-center text-center items-center'>
         <div className="text-3xl text-gray-light font-light underline">
           <a
            href="https://tailwindcss.com/docs"
@@ -22,6 +22,7 @@ function HeroSection() {
         >
           Learn React
         </a>
+
     </div>
   )
 }

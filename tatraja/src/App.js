@@ -1,6 +1,7 @@
 import './App.css';
 import HeroSection from './components/HeroSection.js';
 import Box from './components/Box.js';
+import Button from './components/Button.js';
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { useRef , useEffect } from "react";
@@ -30,6 +31,8 @@ function App() {
       <directionalLight position={[-2 , 5 , 2]} intensity={1}/>
       <Box />
     </Canvas>
+
+    <Button />
     </div>
   );
 }

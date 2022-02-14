@@ -2,7 +2,10 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div>NavBar</div>
+    <div className='Navbar'>
+          <Logo />
+          <Burger />
+    </div>
   )
 }
 
