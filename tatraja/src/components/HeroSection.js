@@ -1,6 +1,8 @@
 import React from 'react'
 
 function HeroSection() {
+
+
   return (
     <div className='flex-col justify-center text-center items-center'>
         <div className="text-3xl text-gray-light font-light underline">
