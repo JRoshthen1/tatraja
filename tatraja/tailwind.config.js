@@ -30,10 +30,9 @@ module.exports = {
         lightGray: '#999999',
 
         black: '#000000',
-        green: '#13161d',
         mint: '#75dab4',
         darkBlue: '#13161d',
-        darkGreen: '#13161d',
+        darkGreen: '#3E4F4E',
         darkestPurple: '#1a1a40',
         darkPurple: '#270082',
         purplePink: '#7a0bc0',
