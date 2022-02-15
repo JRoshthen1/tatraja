@@ -5,7 +5,7 @@ function HeroSection() {
 
   return (
     <div className='flex-col justify-center text-center items-center'>
-        <div className="text-3xl text-gray-light font-light underline">
+        <div className="text-3xl text-mint hover:text-blue-200 font-light underline">
           <a
            href="https://tailwindcss.com/docs"
            target="_blank"
@@ -15,7 +15,7 @@ function HeroSection() {
         </div>
         <br/>
         <a
-          className="text-3xl text-gray-light font-light underline"
+          className="text-3xl text-white hover:text-lightGray font-light underline"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"

@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div ref={heroRef} className="flex-col justify-center"> 
+    <div ref={heroRef} className="flex-col bg-darkBlue justify-center"> 
     <HeroSection></HeroSection>
     <Canvas className='canvas'>
       <OrbitControls enableZoom={false} />
