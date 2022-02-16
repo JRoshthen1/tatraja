@@ -28,7 +28,7 @@ function NavBar() {
 
 {/* Logo */}
           <a href="#" className="flex items-center py-2 px-1">
-            <img src={logo} alt={logo} className='h-10' />
+            <img src={logo} alt={logo} className='h-10 z-20' />
           </a>
 
 {/* Navigation Menu */}
