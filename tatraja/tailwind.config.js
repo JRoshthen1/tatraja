@@ -10,8 +10,13 @@ module.exports = {
       xl: '1280px',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+
+      fredericka: ['Fredericka the Great', 'cursive'],
+      sans: ['Nunito', 'sans-serif'],
+      serif: ['Scope One', 'serif'],
+      
+      cinzel: ['Cinzel', 'display'],
+      molengo: ['Molengo', 'sans-serif'],
     },
     extend: {
       spacing: {
