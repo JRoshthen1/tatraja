@@ -12,8 +12,14 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      frederika: ['Fredericka the Great', 'cursive']
     },
     extend: {
+      backgroundImage: {
+        'hero': "url('../src/images/ABOUT.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
+
       spacing: {
         '128': '32rem',
         '144': '36rem',

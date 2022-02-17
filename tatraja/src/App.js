@@ -3,6 +3,7 @@ import './App.css';
 import HeroSection from './components/HeroSection.js';
 import Box from './components/Box.js';
 import NavBar from './components/NavBar';
+import Aboutus from './Sections/Aboutus';
 
 
 
@@ -36,6 +37,8 @@ function App() {
       <directionalLight position={[-2 , 5 , 2]} intensity={1}/>
       <Box className='orange-700' />
     </Canvas>
+    <Aboutus/>
+    
     </div>
   );
 }
