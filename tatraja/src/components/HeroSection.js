@@ -1,10 +1,11 @@
 import React from 'react'
+import Camera from '../images/Camera.png'
 
 function HeroSection() {
 
 
   return (
-    <div className='flex-col justify-center text-center items-center'>
+    <div className='flex flex-col justify-center text-center items-center'>
         <div className="text-3xl text-mint hover:text-blue-200 font-light underline">
           <a
            href="https://tailwindcss.com/docs"
@@ -22,6 +23,7 @@ function HeroSection() {
         >
           Learn React
         </a>
+        <img className='w-3/4' src={Camera}></img>
     </div>
   )
 }
