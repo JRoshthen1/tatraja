@@ -53,7 +53,12 @@ function NavBar() {
         </button>
         
 {/* Mobile Menu */}
-          <div className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+          <div className={`
+              fixed bg-darkBlue 
+              h-screen w-0 max-w-full 
+              overflow-hidden z-10 
+              inset-y-0 left-0 
+              ${navbarOpen ? " w-full" : ""}`}>
 
           <div className='flex-col justify-center items-center my-24 flex'>
             <a href="#" className="block py-3 px-3 my-3 mx-3 text-xl text-white hover:text-mint hover:bg-slate-800 rounded-lg">Login</a>
