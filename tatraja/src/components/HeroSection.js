@@ -1,4 +1,5 @@
 import React from 'react'
+import Camera from '../images/Camera.png'
 
 function HeroSection() {
 
@@ -22,6 +23,7 @@ function HeroSection() {
         >
           Learn React
         </a>
+        <img className='w-3/4' src={Camera}></img>
     </div>
   )
 }
