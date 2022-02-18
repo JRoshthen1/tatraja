@@ -12,7 +12,7 @@ module.exports = {
     fontFamily: {
 
       fredericka: ['Fredericka the Great', 'cursive'],
-      sans: ['Nunito', 'sans-serif'],
+      nunito: ['Nunito', 'sans-serif'],
       serif: ['Scope One', 'serif'],
       link: ['Alegreya Sans SC, cursive'],
       
@@ -40,6 +40,11 @@ module.exports = {
         lightestGray: '#eeeeee',
         lighterGray: '#cccccc',
         lightGray: '#999999',
+        gray: '#eeeeee',
+        darkGray: '#444444',
+        darkerGray: '#222222',
+        darkestGray: '#111111',
+
 
         black: '#000000',
         mint: '#75dab4',

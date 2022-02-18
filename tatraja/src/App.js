@@ -1,16 +1,16 @@
 import './App.css';
 
-import HeroSection from './components/HeroSection.js';
-import Box from './components/Box.js';
-import NavBar from './components/NavBar';
-import Aboutus from './Sections/Aboutus';
-
-
 
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { useRef , useEffect } from "react";
 import { gsap } from "gsap"
+
+import HeroSection from './components/HeroSection.js';
+import Box from './components/Box.js';
+import NavBar from './components/NavBar';
+import Aboutus from './Sections/Aboutus';
+import Team from './Sections/Team';
 
 
 function App() {
@@ -38,6 +38,7 @@ function App() {
       <Box className='orange-700' />
     </Canvas>
     <Aboutus/>
+    <Team/>
     
     </div>
   );
