@@ -14,9 +14,11 @@ module.exports = {
       fredericka: ['Fredericka the Great', 'cursive'],
       sans: ['Nunito', 'sans-serif'],
       serif: ['Scope One', 'serif'],
+      link: ['Alegreya Sans SC, cursive'],
       
       cinzel: ['Cinzel', 'display'],
       molengo: ['Molengo', 'sans-serif'],
+
     },
     extend: {
       backgroundImage: {

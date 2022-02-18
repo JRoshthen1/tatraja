@@ -22,7 +22,7 @@ function NavBar() {
   return (
 
 //NavBar
-<nav className="bg-darkBlue">
+<nav className="bg-darkBlue font-link">
   <div className="max-w-6xl mx-auto px-4">
     <div className="flex justify-between">
 
@@ -32,11 +32,13 @@ function NavBar() {
           </a>
 
 {/* Navigation Menu */}
-      <div className="hidden md:flex items-center space-x-1">
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">Login</a>
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">Login</a>
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">Login</a>
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">Login</a>
+      <div className="hidden md:flex text-lg items-center space-x-1">
+        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
+        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
+        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
+        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
+        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
+        <a href="#" className="py-2 px-8 bg-white rounded text-darkBlue hover:text-greenWashed hover:scale-105 duration-200">MINT</a>
       </div>
 
 {/* Mobile Button */}
@@ -60,18 +62,26 @@ function NavBar() {
               inset-y-0 left-0 
               ${navbarOpen ? " w-full" : ""}`}>
 
-          <div className='flex-col justify-center items-center my-24 flex'>
-            <a href="#" className="block py-3 px-3 my-3 mx-3 text-xl text-white hover:text-mint hover:bg-slate-800 rounded-lg">Login</a>
+          <div className=' text-2xl flex-col justify-center items-center my-24 flex'>
+
+          <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
             <hr className='w-6/12 text-center'/>
             
-            <a href="#" className="block py-3 px-3 my-3 mx-3 text-xl text-white hover:text-mint hover:bg-slate-800 rounded-lg">Login</a>
+            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
             <hr className='w-6/12 text-center'/>
 
-            <a href="#" className="block py-3 px-3 my-3 mx-3 text-xl text-white hover:text-mint hover:bg-slate-800 rounded-lg">Login</a>
+            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
             <hr className='w-6/12 text-center'/>
 
-            <a href="#" className="block py-3 px-3 my-3 mx-3 text-xl text-white hover:text-mint hover:bg-slate-800 rounded-lg">Login</a>
+            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
             <hr className='w-6/12 text-center'/>
+
+            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
+            <hr className='w-6/12 text-center'/>
+
+            <a href="#" className="py-2 px-16 mt-5 m-3 bg-white rounded-lg text-darkBlue hover:text-greenWashed">MINT</a>
+
+
           </div>
         </div>
       </div>
