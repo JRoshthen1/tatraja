@@ -14,20 +14,15 @@ import Team from './Sections/Team';
 
 
 function App() {
-  const heroRef = useRef(null);
+
 
   useEffect(() => {
-    gsap.from(heroRef.current, {
-      duration: 1,
-      autoAlpha: 0,
-      ease: 'none',
-      delay: 1
-    })
+
   }, [])
 
 
   return (
-    <div ref={heroRef} className="flex-col bg-darkBlue justify-center"> 
+    <div className="flex-col bg-darkBlue justify-center"> 
     <NavBar />
     <HeroSection></HeroSection>
     <Canvas>

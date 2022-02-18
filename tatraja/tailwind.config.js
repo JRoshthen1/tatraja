@@ -12,7 +12,7 @@ module.exports = {
     fontFamily: {
 
       fredericka: ['Fredericka the Great', 'cursive'],
-      nunito: ['Nunito', 'sans-serif'],
+      nunito: ['Nunito Sans', 'sans-serif'],
       serif: ['Scope One', 'serif'],
       link: ['Alegreya Sans SC, cursive'],
       

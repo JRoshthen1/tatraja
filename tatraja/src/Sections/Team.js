@@ -12,16 +12,16 @@ function Team() {
   return (
     <div>
         {/* Sidescroll Content Container  */}
-        <div className="flex overflow-x-auto">
+        <div className="flex overflow-x-auto font-nunito">
             
             {/* Team Profile */}
-            <section className="flex-shrink-0 w-128 rounded-xl m-4 p-4 justify-center items-center font-nunito bg-lighterGray">
+            <section className="flex-shrink-0 w-128 rounded-xl m-4 p-4 justify-center items-center bg-lighterGray">
                 <div className='flex justify-evenly items-center'>
                     <div className='rounded-full bg-black h-44 w-44 m-2'>
                     </div>
 
                     <div className='flex flex-col m-4 w-52 justify-center'>
-                        <h3 className='text-5xl font-bold font-nunito text-darkerGray'>Martin Jaros</h3>
+                        <h3 className='text-5xl shadow-md font-bold text-darkerGray'>Martin Jaros</h3>
                         <h6 className='text-lg m-0.5 text-darkestGray'>Developer, designer and marketing manager</h6>
                     </div>
                 </div>
