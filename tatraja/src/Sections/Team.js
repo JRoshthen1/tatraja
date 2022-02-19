@@ -21,7 +21,7 @@ function Team() {
                     </div>
 
                     <div className='flex flex-col m-4 w-52 justify-center'>
-                        <h3 className='text-5xl shadow-md font-bold text-darkerGray'>Martin Jaros</h3>
+                        <h3 className='text-5xl font-bold text-darkerGray'>Martin Jaros</h3>
                         <h6 className='text-lg m-0.5 text-darkestGray'>Developer, designer and marketing manager</h6>
                     </div>
                 </div>
