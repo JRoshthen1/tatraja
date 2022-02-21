@@ -3,8 +3,8 @@ import './App.css';
 
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import { useRef , useEffect } from "react";
-import { gsap } from "gsap"
+import { useEffect } from "react";
+
 
 import HeroSection from './components/HeroSection.js';
 import Box from './components/Box.js';

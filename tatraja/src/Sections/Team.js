@@ -13,6 +13,10 @@ function Team() {
         {/* Sidescroll Content Container  */}
         <div className="flex overflow-x-auto font-nunito">
             <TeamProfile name="Robert De Niro"/>
+            <TeamProfile name="Robert De Niro"/>
+            <TeamProfile name="Robert De Niro"/>
+            <TeamProfile name="Robert De Niro"/>
+            <TeamProfile name="Robert De Niro"/>
             </div>
     </div>
   )
