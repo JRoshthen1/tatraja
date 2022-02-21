@@ -1,33 +1,28 @@
 import './App.css';
 
+
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
+import { useEffect } from "react";
+
+
 import HeroSection from './components/HeroSection.js';
 import Box from './components/Box.js';
 import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
-
-
-
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
-import { useRef , useEffect } from "react";
-import { gsap } from "gsap"
+import Team from './Sections/Team';
 
 
 function App() {
-  const heroRef = useRef(null);
+
 
   useEffect(() => {
-    gsap.from(heroRef.current, {
-      duration: 1,
-      autoAlpha: 0,
-      ease: 'none',
-      delay: 1
-    })
+
   }, [])
 
 
   return (
-    <div ref={heroRef} className="flex-col bg-darkBlue justify-center"> 
+    <div className="flex-col bg-darkBlue justify-center"> 
     <NavBar />
     <HeroSection></HeroSection>
     <Canvas>
@@ -38,6 +33,7 @@ function App() {
       <Box className='orange-700' />
     </Canvas>
     <Aboutus/>
+    <Team/>
     
     </div>
   );
