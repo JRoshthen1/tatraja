@@ -11,6 +11,7 @@ import Box from './components/Box.js';
 import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
+import Faq from './Sections/Faq';
 import Carousel from './components/Carousel';
 
 
@@ -33,9 +34,12 @@ function App() {
       <directionalLight position={[-2 , 5 , 2]} intensity={1}/>
       <Box className='orange-700' />
     </Canvas>
+    
     <Aboutus/>
-    <Carousel/>
+
     <Team/>
+    
+    <Faq/>
     
     </div>
   );

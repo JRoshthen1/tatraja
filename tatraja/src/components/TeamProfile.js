@@ -24,10 +24,10 @@ function TeamProfile(props) {
                 </div>
 
              
-                <hr className='my-3'/>
+                <hr className='my-3 border-darkGray'/>
 
 
-            <div className='flex flex-col justify-center items-center mx-4 my-6'>  
+            <div className='flex flex-col justify-center text-darkGray items-center mx-4 my-6'>  
                 <p>Born in Slovakia. Currently studying multimedia design degree. I enjoy doing front end development, marketing and business. I discovered Tatraja whilst their first drop of NFTs.</p>
                 
 
