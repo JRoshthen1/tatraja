@@ -19,7 +19,7 @@ const Mint = () => {
     <Print/>
     
     </div>
-    <img src={Girl}/>
+    <img src={Girl} alt=''/>
     </div>
   )
 }

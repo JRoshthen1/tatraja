@@ -11,7 +11,6 @@ import Box from './components/Box.js';
 import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
-import Carousel from './components/Carousel';
 import Mint from './Sections/Mint';
 
 
@@ -36,7 +35,6 @@ function App() {
     </Canvas>
     <Aboutus/>
     <Mint/>
-    <Carousel/>
     <Team/>
     
     </div>
