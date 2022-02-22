@@ -12,6 +12,7 @@ import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
 import Carousel from './components/Carousel';
+import Mint from './Sections/Mint';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Box className='orange-700' />
     </Canvas>
     <Aboutus/>
+    <Mint/>
     <Carousel/>
     <Team/>
     
