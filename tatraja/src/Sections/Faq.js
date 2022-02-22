@@ -10,7 +10,7 @@ function Faq() {
         <Collapse question='test123' answer='test321'/>
         <Collapse question='test123' answer='test321'/>
         <Collapse question='test123' answer='test321'/>
-        <Collapse question='test123' answer='test321'/>
+        <Collapse question='testLast' answer='test321'/>
         </div>
         
     </div>
