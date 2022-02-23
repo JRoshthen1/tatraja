@@ -13,6 +13,7 @@ import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
 import Faq from './Sections/Faq';
 import Charity from './Sections/Charity';
+import VoteCharity from './Sections/VoteCharity';
 
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
     <Faq/>
     
     <Charity/>
+
+    <VoteCharity/>
     </div>
   );
 }
