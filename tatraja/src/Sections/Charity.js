@@ -5,8 +5,8 @@ import layeredPeaksBench from '../images/layered-peaks-bench.svg'
 function Charity() {
   return (
     <div>
-        <div className='pt-64 flex flex-col justify-between'>
-        <div className="bg-cover w-screen h-96 bg-lightestGray" style={{
+        <div className=' pt-20 flex flex-col justify-between'>
+        <div className="bg-cover w-screen xl:h-128 lg:h-96 md:h-72 sm:h-48 bg-lightestGray" style={{
                  backgroundImage: `url(${layeredWaves})`
                    }}>   
             </div>
@@ -18,10 +18,11 @@ function Charity() {
             </div>
             
             <p className='text-darkestGray mt-12 w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 text-center'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
+        
         </div>
         
 
-        <div className="bg-cover xl:lg:md:bg-bottom sm:bg-contain bg-no-repeat w-auto h-screen bg-lightestGray" style={{
+        <div className="bg-cover bg-bottom bg-no-repeat sm:bg-contain w-full h-[90vh] bg-lightestGray" style={{
                  backgroundImage: `url(${layeredPeaksBench})`
                    }}>   
             </div>
