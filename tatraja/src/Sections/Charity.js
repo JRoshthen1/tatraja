@@ -1,6 +1,7 @@
 import React from 'react'
 import layeredWaves from '../images/layered-waves-haikei.svg'
-import layeredPeaksBench from '../images/layered-peaks-bench.svg'
+import {ReactComponent as LayeredPeaksBench} from '../images/layered-peaks-bench.svg'
+
 
 function Charity() {
   return (
@@ -17,15 +18,21 @@ function Charity() {
                    <h5 className='p-4 sm:font-normal font-bold w-64 sm:w-1/2'><span className='text-green-700'>13%</span> from every purchase goes to charity of our community selection</h5>
             </div>
             
-            <p className='text-darkestGray mt-12 w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 text-center'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
+            <p className='text-darkestGray mt-12 sm:text-sm w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 text-center'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
         
+        </div>
+        {/*    COMPONENT APPROACH ON THE BENCH IMAGE   */}
+        <div className='w-screen'>
+          <LayeredPeaksBench className='w-screen h-full bg-lightestGray'/>
         </div>
         
 
-        <div className="bg-cover bg-bottom bg-no-repeat sm:bg-contain w-full h-[90vh] bg-lightestGray" style={{
+{/*    BG IMAGE APPROACH ON THE BENCH IMAGE    
+     <div className="bg-cover bg-bottom bg-no-repeat sm:bg-contain w-full h-screen sm:h-[60vh] md:h-[80vh] bg-lightestGray" style={{
                  backgroundImage: `url(${layeredPeaksBench})`
                    }}>   
-            </div>
+                  </div> 
+*/}
             </div>
     </div>
   )

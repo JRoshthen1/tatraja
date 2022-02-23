@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <div className="flex-col bg-darkBlue justify-center"> 
+    <div className="flex-col bg-darkBlue justify-center scroll-smooth"> 
     <NavBar />
     <HeroSection></HeroSection>
     <Canvas>
