@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('../src/images/ABOUT.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'layeredWaves': "url('/images/layered-waves-haikei.svg')",
       },
 
       spacing: {

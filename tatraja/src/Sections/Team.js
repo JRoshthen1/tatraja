@@ -13,7 +13,7 @@ function Team() {
         {/* Sidescroll Content Container  */}
         <div className="flex overflow-x-auto font-nunito">
             <TeamProfile 
-            name="Robert De Niro" 
+            name="Martin Jaros" 
             bio="Developer, designer and business enthusiast"
             trait1="Business"
             trait2="Web-Development"

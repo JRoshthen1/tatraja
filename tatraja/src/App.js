@@ -12,7 +12,8 @@ import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
 import Faq from './Sections/Faq';
-import Carousel from './components/Carousel';
+import Charity from './Sections/Charity';
+import VoteCharity from './Sections/VoteCharity';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
 
   return (
-    <div className="flex-col bg-darkBlue justify-center"> 
+    <div className="flex-col bg-darkBlue justify-center scroll-smooth"> 
     <NavBar />
     <HeroSection></HeroSection>
     <Canvas>
@@ -41,6 +42,9 @@ function App() {
     
     <Faq/>
     
+    <Charity/>
+
+    <VoteCharity/>
     </div>
   );
 }
