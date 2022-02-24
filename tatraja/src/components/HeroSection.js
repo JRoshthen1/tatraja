@@ -8,8 +8,6 @@ function HeroSection() {
 
   return (
 <div>
-<Waves1 className='w-full h-64'/>
-    
     <div className="bg-cover  bg-b w-screen h-screen bg-white bg-bottom" style={{
        backgroundImage: `url(${PPeaks1})`
          }}>   
