@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="flex-col bg-darkBlue justify-center scroll-smooth"> 
     <NavBar />
-    <HeroSection></HeroSection>
+    <HeroSection/>
     <Canvas>
       <OrbitControls enableZoom={false} />
       <ambientLight intensity={0.5} />
