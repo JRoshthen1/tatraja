@@ -4,8 +4,8 @@ module.exports = {
 ],
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
+      sm: {'max': '639px'},
+      md: '640px',
       lg: '1024px',
       xl: '1280px',
     },
@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('../src/images/ABOUT.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'layeredWaves': "url('/images/layered-waves-haikei.svg')",
       },
 
       spacing: {
