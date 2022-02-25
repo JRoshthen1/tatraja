@@ -22,8 +22,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero': "url('../src/images/ABOUT.png')",
-        'layeredWaves': "url('/images/layered-waves-haikei.svg')",
+        'hero': "url('../src/images/haikei/peaks1.svg')",
+        'layeredWaves': "url('../src/images/haikei/waves5.svg')",
       },
 
       spacing: {

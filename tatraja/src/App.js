@@ -30,14 +30,8 @@ function App() {
   return (
     <div className="flex-col bg-darkBlue justify-center scroll-smooth"> 
     <NavBar />
-    <HeroSection/>
-    <Canvas>
-      <OrbitControls enableZoom={false} />
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[-2 , -5 , 2]} intensity={1}/>
-      <directionalLight position={[-2 , 5 , 2]} intensity={1}/>
-      <Box className='orange-700' />
-    </Canvas>
+    <HeroSection />
+   
     
     <Aboutus/>
 

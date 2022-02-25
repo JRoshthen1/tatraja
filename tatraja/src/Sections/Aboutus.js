@@ -4,9 +4,8 @@ import Carousel from '../components/Carousel';
 const Aboutus = () => {
 
   return (
-    <div className="bg-no-repeat bg-cover statik h-auto" style={{
-        backgroundImage: `url(${ABOUT})`
-    }}>
+    <div className="bg-no-repeat bg-cover statik h-auto bg-stone-500" 
+      >
         <div className='flex flex-col justify-between align-middle pt-44'>
         <h1 className="text-black text-6xl text-center place-content-center font-frederika">About us</h1>
         <Carousel/>
