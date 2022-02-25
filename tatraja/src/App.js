@@ -11,9 +11,13 @@ import Box from './components/Box.js';
 import NavBar from './components/NavBar';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
+
+import Mint from './Sections/Mint';
+=======
 import Faq from './Sections/Faq';
 import Charity from './Sections/Charity';
 import VoteCharity from './Sections/VoteCharity';
+
 
 
 function App() {
@@ -37,6 +41,8 @@ function App() {
     </Canvas>
     
     <Aboutus/>
+
+    <Mint/>
 
     <Team/>
     
