@@ -50,8 +50,11 @@ function NavBar() {
         <a href="#" className="btn px-12 bg-white text-lg text-darkerGray rounded hover:scale-105 hover:bg-mint duration-200">MINT</a>
       </div>
 
-{/* Mobile Button */}
+
+
       <div className="md:hidden flex items-center">
+     
+     {/* Mobile Button old
         <button onClick={handleToggle} className='z-50 scale-90 hover:scale-100'>
 
         <svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +66,26 @@ function NavBar() {
 
         </button>
         
+        
+        */}
+
+
+{/* Mobile Button */}
+
+            <button onClick={handleToggle} className="w-14 h-14 relative focus:outline-none z-50">
+                <div className={`block w-5 absolute left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2`}>
+                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "-rotate-[40deg]"  : "-translate-y-1.5"}`}></span>
+                  <span className={`block absolute h-0.5 w-5 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "opacity-0"  : ""}`}></span>
+                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "rotate-[40deg]"  : "translate-y-1.5"}`}></span>
+                </div>
+            </button>     
+                            {/* Reference: 
+                            https://bbbootstrap.com/snippets/tailwind-css-hamburger-menu-animation-82889170
+                            */}
+
+
 {/* Mobile Menu */}
+
           <div 
           onClick={handleToggle} className={`
               fixed bg-darkBlue 
