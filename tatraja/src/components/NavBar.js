@@ -11,9 +11,14 @@ function NavBar() {
 {/* Handling the toggle */}
   const handleToggle = () => {
     setNavbarOpen(prev => !prev)
+    if (navbarOpen == false) {
+      document.body.style.overflow = 'hidden';
+      console.log(navbarOpen)
+  }  
+  else {
+    document.body.style.overflow = '';
   }
-
-
+}
 
 {/* updater function, do not use if the state depends on previous 
 
@@ -59,7 +64,8 @@ function NavBar() {
         </button>
         
 {/* Mobile Menu */}
-          <div onClick={handleToggle} className={`
+          <div 
+          onClick={handleToggle} className={`
               fixed bg-darkBlue 
               h-screen w-[0vw]
               overflow-hidden  
