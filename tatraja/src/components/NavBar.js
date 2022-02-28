@@ -14,6 +14,7 @@ function NavBar() {
   }
 
 
+
 {/* updater function, do not use if the state depends on previous 
 
   const handleToggle = () => {
@@ -58,16 +59,16 @@ function NavBar() {
         </button>
         
 {/* Mobile Menu */}
-          <div className={`
+          <div onClick={handleToggle} className={`
               fixed bg-darkBlue 
               h-screen w-[0vw]
               overflow-hidden  
               inset-y-0 left-0
-              ${navbarOpen ? "w-[100vw]" : ""}`}>
+              ${navbarOpen ? "w-[100vw]"  : ""}`}>
 
           <div className='flex flex-col text-2xl justify-center items-center space-x-4 my-24 '>
 
-          <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
+          <a href="https://jroshthen1.github.io/portfolio/" className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
             <hr className='w-6/12 text-center'/>
             
             <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
