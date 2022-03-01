@@ -73,10 +73,10 @@ function NavBar() {
 {/* Mobile Button */}
 
             <button onClick={handleToggle} className="w-14 h-14 relative focus:outline-none z-50">
-                <div className={`block w-5 absolute left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2`}>
-                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "-rotate-[40deg]"  : "-translate-y-1.5"}`}></span>
+                <div className={`block w-5 absolute left-6 top-1/2 transform text-right -translate-x-1/2 -translate-y-1/2`}>
+                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "-rotate-45"  : "-translate-y-1.5"}`}></span>
                   <span className={`block absolute h-0.5 w-5 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "opacity-0"  : ""}`}></span>
-                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "rotate-[40deg]"  : "translate-y-1.5"}`}></span>
+                  <span className={`block absolute h-0.5 text-white bg-current transform transition duration-200 ease-in-out ${navbarOpen ? "w-7 rotate-45"  : "w-3 translate-y-1.5"}`}></span>
                 </div>
             </button>     
                             {/* Reference: 
