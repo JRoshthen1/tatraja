@@ -1,6 +1,8 @@
 import ABOUT from '../images/ABOUT.png'
 import Carousel from '../components/Carousel';
 
+
+
 const Aboutus = () => {
 
   return (

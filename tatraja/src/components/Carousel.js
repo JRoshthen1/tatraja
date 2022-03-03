@@ -8,19 +8,20 @@ function Carousel() {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "../script.js";
+    script.src = "http://127.0.0.1:5500/script.js";
     script.async = true;
     document.body.appendChild(script);
-    console.log(script)
+    console.log(script.src)
   return () => {
       document.body.removeChild(script);
   
     }
   }, []);
+  
 
 
   return (
-    <div>
+    <div className='relative'>
     <div className="mainbox flex flex-row">
   <div id='carousel' className="carousel">
     <div className="item a">A</div>
