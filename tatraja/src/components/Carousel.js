@@ -1,40 +1,40 @@
+import '../slideshow.css';
 import React from 'react'
 import imagetest from '../images/Camera.png'
+import { useEffect } from 'react'
+
 
 function Carousel() {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "../script.js";
+    script.async = true;
+    document.body.appendChild(script);
+    console.log(script)
+  return () => {
+      document.body.removeChild(script);
+  
+    }
+  }, []);
+
+
   return (
-    <div className='w-3/4 h-auto flex flex-col self-center'>
-        <div className="w-full carousel">
-  <div id="slide1" className="relative w-full carousel-item">
-    <img alt='' src={imagetest} className="w-full"/>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide2" className="relative w-full carousel-item">
-    <img alt='' src={imagetest} className="w-full"/>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-      <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="relative w-full carousel-item">
-    <img alt='' src={imagetest} className="w-full"/>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-      <a href="#slide2" className="btn btn-circle">❮</a> 
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="relative w-full carousel-item">
-    <img alt='' src={imagetest} className="w-full"/>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
+    <div>
+    <div className="mainbox flex flex-row">
+  <div id='carousel' className="carousel">
+    <div className="item a">A</div>
+    <div className="item b">B</div>
+    <div className="item c">C</div>
+    <div className="item d">D</div>
+    <div className="item e">E</div>
+    <div className="item f">F</div>
   </div>
 </div>
+<div className="next">Next</div>
+<div className="prev">Prev</div>
     </div>
+    
   )
 }
 
