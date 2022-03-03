@@ -1,9 +1,7 @@
 import React from 'react'
-
-import fa_instagram from '../images/fa_instagram.svg'
-import fa_linkedin from '../images/fa_linkedin.svg'
-import fa_reddit from '../images/fa_reddit.svg'
-import FacebookLink from './FacebookLink'
+import DiscordLink from './SocialMediaLinks/DiscordLink'
+import FacebookLink from './SocialMediaLinks/FacebookLink'
+import InstagramLink from './SocialMediaLinks/InstagramLink'
 
 function TeamProfile(props) {
   return (
@@ -31,12 +29,10 @@ function TeamProfile(props) {
                             <div className="badge badge-outline m-1">{props.trait5}</div>
                         </div>
 
-                        <div className="justify-center card-actions mt-4">
+                        <div className="justify-evenly card-actions mt-4 mb-2">
                               <FacebookLink href='http://jroshthen1.github.io/portfolio' color='#4267B2' />
-                        </div>
-
-                        <div className=' flex mt-4'>
-
+                              <InstagramLink href='http://jroshthen1.github.io/portfolio' />
+                              <DiscordLink/>
                         </div>
 
                     </div>
