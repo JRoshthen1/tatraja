@@ -41,6 +41,7 @@ function Team() {
             trait3="Crypto"
             trait4="Finance"
             trait5="Front-End"
+            link1="<TikTokLink.js/>"
             />
 
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function RedditLink(props) {
   return (
-    <a href={props.href} className='mx-4'>
+    <a href={props.href} target="_blank"className='mx-4'>
       
     </a>
   )

@@ -2,6 +2,9 @@ import React from 'react'
 import DiscordLink from './SocialMediaLinks/DiscordLink'
 import FacebookLink from './SocialMediaLinks/FacebookLink'
 import InstagramLink from './SocialMediaLinks/InstagramLink'
+import LinkedInLink from './SocialMediaLinks/LinkedInLink'
+import CustomLink from './SocialMediaLinks/CustomLink'
+import PinterestLink from './SocialMediaLinks/PinterestLink'
 
 function TeamProfile(props) {
   return (
@@ -30,9 +33,10 @@ function TeamProfile(props) {
                         </div>
 
                         <div className="justify-evenly card-actions mt-4 mb-2">
-                              <FacebookLink href='http://jroshthen1.github.io/portfolio' color='#4267B2' />
-                              <InstagramLink href='http://jroshthen1.github.io/portfolio' />
+                              <FacebookLink href='http://facebook.com' />
+                              <InstagramLink href='http://instagram.com' />
                               <DiscordLink/>
+                              {props.link1}
                         </div>
 
                     </div>
