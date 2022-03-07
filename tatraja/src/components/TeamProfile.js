@@ -33,7 +33,7 @@ function TeamProfile(props) {
                         </div>
 
                         <div className='flex justify-evenly mt-6'>
-                          <a href={props.more} target="_blank"><button className='btn'>Learn more about me!</button></a>
+                          <a href={props.more} target="_blank"><button className='btn'>{props.btnText}</button></a>
                           {/* <DiscordLink href={props.DiscordLink}/>
                           <InstagramLink href={props.InstagramLink}/>
                           <LinkedInLink href={props.LinkedInLink}/>
