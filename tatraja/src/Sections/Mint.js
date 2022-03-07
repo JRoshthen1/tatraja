@@ -19,7 +19,7 @@ const Mint = () => {
           <span className='text-white text-5xl'>+</span> 
           <Print/>
           </div>
-      <img  src={Girl} alt=''/>
+      <img className='w-full' src={Girl} alt=''/>
       </div>
 
     </div>

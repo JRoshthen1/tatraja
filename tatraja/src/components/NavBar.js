@@ -31,7 +31,7 @@ function NavBar() {
   return (
 
 //NavBar
-<nav className="bg-darkBlue font-link fixed w-screen z-50">
+<nav className="bg-darkBlue font-link fixed w-screen z-50 ">
   <div className="max-w-6xl mx-auto px-4">
     <div className="flex justify-between">
 
