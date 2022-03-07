@@ -28,7 +28,7 @@ function App() {
 
 
   return (
-    <div className="flex-col bg-darkBlue justify-center scroll-smooth"> 
+    <div className="flex-col bg-darkBlue justify-center scroll-smooth  max-w-[1920px]"> 
     <NavBar />
     <HeroSection/>
     <Canvas>

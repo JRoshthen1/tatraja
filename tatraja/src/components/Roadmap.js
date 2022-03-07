@@ -24,6 +24,7 @@ useEffect(() => {
   .to(".ball02, .text01", {}, 0.84) 
   .to(".ball03, .text02", {}, 1.36)
   .to(".ball04, .text03", {}, 1.92)
+  .to(".ball05, .text04", {}, 2.28)
 
   const main = gsap.timeline({
     scrollTrigger: {
@@ -47,16 +48,16 @@ useEffect(() => {
 
   
   return (
-    <div className='relative w-screen'>
-    <svg className=' w-3/4' id="svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 600 1200">
+    <div className='relative w-screen max-w-[1920px] flex justify-center items-center'>
+    <svg className=' w-1/2 xl:w-1/3' id="svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 600 1200">
   <path className="line01 line" d="M 10 200  600 200" ></path>
   <path className="line02 line" d="M 10 400  600 400" ></path>
   <path className="line03 line" d="M 10 600  600 600" ></path>
   <path className="line04 line" d="M 10 800  600 800" ></path>
   <path className="line05 line" d="M 10 1000  600 1000" ></path>
-  <text className="text01" x="30" y="190">2018</text>
-  <text className="text02" x="30" y="390">2019</text>
-  <text className="text03" x="30" y="590">2020</text>
+  <text className="text01" x="30" y="190">2021</text>
+  <text className="text02" x="30" y="390">2022</text>
+  <text className="text03" x="49" y="590">2023</text>
 
   <path className="theLine" 
         d="M -5,0

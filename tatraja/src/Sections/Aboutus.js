@@ -6,7 +6,7 @@ const Aboutus = () => {
 
   return (
     <div>
-        <div className='flex flex-col items-end h-screen'>
+        <div className='flex flex-col justify-center items-end h-128'>
         <h1 className="text-white text-6xl text-right font-fredericka m-6">Our NFT collection</h1>
         <p className='text-white font-nunito m-6 pb-10 text-xl lg:w-1/2 md:w-2/3 text-right'>
          Our collection of 333 unique ANALOG NFT's is reflecting on today's trend take lots of photos 
