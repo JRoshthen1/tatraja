@@ -8,7 +8,7 @@ import { useRef, useEffect } from 'react'
 
 
 
-function Carousel() {
+function Roadmap() {
 
 useEffect(() => {
   gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
@@ -80,4 +80,4 @@ useEffect(() => {
   )
 }
 
-export default Carousel
+export default Roadmap
