@@ -1,18 +1,21 @@
-import ABOUT from '../images/ABOUT.png'
-import Carousel from '../components/Carousel';
+import Roadmap from '../components/Roadmap';
 
 const Aboutus = () => {
 
+  //About us section importing the scrolling RoadMap
+
   return (
-    <div className="bg-no-repeat bg-cover statik h-auto" style={{
-        backgroundImage: `url(${ABOUT})`
-    }}>
-        <div className='flex flex-col justify-between align-middle pt-44'>
-        <h1 className="text-black text-6xl text-center place-content-center font-frederika">About us</h1>
-        <Carousel/>
-        <p className='text-darkBlue pt-5 pb-10 text-xl w-80 text-center place-self-center'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.</p>
+    <div>
+        <div className='flex flex-col items-end pt-44'>
+        <h1 className="text-white text-6xl text-right font-fredericka m-6">Our NFT collection</h1>
+        <p className='text-white m-6 pb-10 text-xl w-128 text-right'>
+         Our collection of 333 unique ANALOG NFT's is reflecting on today's trend take lots of photos 
+         of any anomalies or satisfactions in short amount of time and not focusing on what it accualy is, that makes photo visualy appealing.
+         With analog camera, photographer is looking for right opportunity to take fraction of time, light, mood and feeling into small window of film.</p>
         </div>
+        <Roadmap/>
         </div>
+        
   )
 }
 
