@@ -10,13 +10,13 @@ function TeamProfile(props) {
   return (
     <div>
                     {/* Team Profile */}
-             <section className="flex-shrink-0  rounded-xl m-4 sm:p-2 md:p-4 justify-center items-center ">
+             <section className="flex-shrink-0 font-nunito rounded-xl m-4 sm:p-2 md:p-4 justify-center items-center ">
                 <div className='flex flex-col justify-evenly items-center'>
 
-                <div className="card w-96 glass">
-                    <figure className=" pt-2">
+                <div className="card w-80 glass">
+                    <figure className="pt-4">
                     <div className="w-44 mask mask-squircle">
-                        <img src={"https://api.lorem.space/image/face?hash=47449"}/>
+                        <img src={props.avatar}/>
                     </div>
                     </figure>
                     <div className="card-body">
@@ -32,15 +32,18 @@ function TeamProfile(props) {
                             <div className="badge badge-outline m-1">{props.trait5}</div>
                         </div>
 
-                        <div className="justify-evenly card-actions mt-4 mb-2">
-                              <FacebookLink href='http://facebook.com' />
-                              <InstagramLink href='http://instagram.com' />
-                              <DiscordLink/>
-                              {props.link1}
+                        <div className='flex justify-evenly mt-6'>
+                          <a href={props.more} target="_blank"><button className='btn'>Learn more about me!</button></a>
+                          {/* <DiscordLink href={props.DiscordLink}/>
+                          <InstagramLink href={props.InstagramLink}/>
+                          <LinkedInLink href={props.LinkedInLink}/>
+                          <CustomLink href={props.CustomLink}/> */}
                         </div>
+
 
                     </div>
                     </div>
+
 
             </div>
 

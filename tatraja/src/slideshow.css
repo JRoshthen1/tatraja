@@ -4,11 +4,6 @@
   margin: 100px auto 0;
 }
 
-svg {
-
-  overflow: visible;
-  margin-top: 60vh;
-}
 
 .ball {
   fill: white;

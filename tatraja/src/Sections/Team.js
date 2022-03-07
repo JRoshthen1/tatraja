@@ -14,33 +14,39 @@ function Team() {
         <div className="flex overflow-x-auto font-nunito">
             <TeamProfile 
             name="Martin Jaros" 
+            avatar="https://api.lorem.space/image/face?hash=47449"
             bio="Developer, designer and business enthusiast"
             trait1="Business"
             trait2="Web-Development"
             trait3="Crypto"
             trait4="Finance"
             trait5="Front-End"
+            more='https://jroshthen1.github.io/portfolio/'
             />
 
 
 <TeamProfile 
             name="Robert De Niro" 
+            avatar="https://api.lorem.space/image/face?hash=47449"
             bio="Developer, designer and business enthusiast"
             trait1="Business"
             trait2="Web-Development"
             trait3="Crypto"
             trait4="Finance"
             trait5="Front-End"
+            more='https://jroshthen1.github.io/portfolio/'
             />
 
 <TeamProfile 
             name="Robert De Niro" 
+            avatar="https://api.lorem.space/image/face?hash=47449"
             bio="Developer, designer and business enthusiast"
             trait1="Business"
-            trait2="Web-Development"
-            trait3="Crypto"
-            trait4="Finance"
-            trait5="Front-End"
+            trait2="Art"
+            trait3="Photography"
+            trait4="Space"
+            trait5="Luxury"
+            more='https://jroshthen1.github.io/portfolio/'
             />
 
             </div>

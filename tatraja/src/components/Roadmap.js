@@ -1,6 +1,5 @@
 import '../slideshow.css';
 import React from 'react'
-import imagetest from '../images/Camera.png'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {MotionPathPlugin } from "gsap/MotionPathPlugin";
@@ -22,7 +21,7 @@ useEffect(() => {
       transformOrigin: 'center', 
       ease: "elastic(2.5, 1)"
     }})
-  .to( ".ball02",  {}, 0.84) 
+  .to(".ball02, .text01", {}, 0.84) 
   .to(".ball03, .text02", {}, 1.36)
   .to(".ball04, .text03", {}, 1.92)
 

@@ -15,7 +15,6 @@ module.exports = {
       nunito: ['Nunito Sans', 'sans-serif'],
       serif: ['Scope One', 'serif'],
       link: ['Alegreya Sans SC, cursive'],
-      
       cinzel: ['Cinzel', 'display'],
       molengo: ['Molengo', 'sans-serif'],
 
