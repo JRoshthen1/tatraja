@@ -2,16 +2,20 @@ import './App.css';
 import { useEffect } from "react";
 
 
-import HeroSection from './components/HeroSection.js';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import Aboutus from './Sections/Aboutus';
-import Team from './Sections/Team';
-
+import HeroSection from './Sections/HeroSection.js';
 import Mint from './Sections/Mint';
 import Faq from './Sections/Faq';
 import Charity from './Sections/Charity';
 import VoteCharity from './Sections/VoteCharity';
+import Aboutus from './Sections/Aboutus';
+import Team from './Sections/Team';
+
+
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
+
+
 
 
 
@@ -26,7 +30,6 @@ function App() {
   return (
     <div className="flex-col bg-darkBlue justify-center scroll-smooth  max-w-[1920px]"> 
     <NavBar/>
-    
     <HeroSection/>
     
     <Aboutus/>

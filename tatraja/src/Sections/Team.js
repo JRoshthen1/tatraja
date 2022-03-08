@@ -25,7 +25,7 @@ function Team() {
             trait1="Business"
             trait2="Web-Development"
             trait3="Crypto"
-            trait4="Entrepreneur"
+            trait4="Entrepreneurship"
             trait5="Video game Development"
             more='https://tatraja.art/creators/robert'
             btnText='Check out my portfolio'
@@ -62,8 +62,8 @@ function Team() {
             avatar={martin}
             bio="Lead programmer, Marketing & Communication leader "
             trait1="Programming"
-            trait2="Design"
-            trait3="Crypto"
+            trait2="Entrepreneurship"
+            trait3="Blockchain"
             trait4="Marketing"
             trait5="Web development"
             more='https://jroshthen1.github.io/portfolio/'

@@ -1,7 +1,4 @@
 import React from 'react'
-import dima from '../images/profilePics/dima.png'
-
-
 
 function TeamProfile(props) {
   return (
