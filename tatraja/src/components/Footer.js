@@ -8,7 +8,7 @@ function Footer() {
     const year = new Date().getFullYear()
 
   return (
-    <div className='w-screen  bg-lightestGray flex flex-row md:flex-col sm:flex-col items-center justify-center p-6 sm:py-4'>
+    <div className='w-screen bg-lightestGray flex lg:flex-row md:flex-col sm:flex-col items-center justify-center p-6 sm:py-4'>
 
             <div className='flex flex-row w-1/4 justify-center items-center space-x-8 mb-4'> {/* Social Media */}
                 <CustomLink href='https://tatraja.art/' fill='#111111'/>
