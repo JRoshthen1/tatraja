@@ -1,15 +1,10 @@
 import React from 'react'
-import layeredWaves from '../images/layered-waves-haikei.svg'
-import {ReactComponent as LayeredPeaksBench} from '../images/layered-peaks-bench.svg'
-
 
 function Charity() {
   return (
     <div>
         <div className=' pt-20 flex flex-col justify-between'>
-        <div className="bg-cover w-screen xl:h-128 lg:h-96 md:h-72 sm:h-48 bg-lightestGray" style={{
-                 backgroundImage: `url(${layeredWaves})`
-                   }}>   
+        <div className="bg-cover w-screen xl:h-128 lg:h-96 md:h-72 sm:h-48 bg-lightestGray">   
             </div>
         <div className='flex flex-col items-center w-full relative inset-x-0 bottom-0 bg-lightestGray'>
             
@@ -22,9 +17,7 @@ function Charity() {
         
         </div>
         {/*    COMPONENT APPROACH ON THE BENCH IMAGE   */}
-        <div className='w-screen'>
-          <LayeredPeaksBench className='w-screen h-full bg-lightestGray'/>
-        </div>
+
         
 
 {/*    BG IMAGE APPROACH ON THE BENCH IMAGE    

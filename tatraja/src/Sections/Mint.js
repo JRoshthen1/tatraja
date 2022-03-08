@@ -3,8 +3,6 @@ import Film from '../svg/Film'
 import Print from '../svg/Print'
 import Token from '../svg/Token'
 
-import Girl from '../images/girlImage.png'
-
 
 const Mint = () => {
   return (
@@ -19,7 +17,9 @@ const Mint = () => {
           <span className='text-white text-5xl'>+</span> 
           <Print/>
           </div>
-      <img className='w-full' src={Girl} alt=''/>
+
+        {/*    Translating carousel   */}
+
       </div>
 
     </div>

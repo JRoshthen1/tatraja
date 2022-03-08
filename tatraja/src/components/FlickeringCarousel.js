@@ -1,17 +1,23 @@
 import React from 'react'
 import { useState , useEffect} from 'react'
 
-import aa from '../images/FlickeringCarousel/aa.jpg'
-import aa2 from '../images/FlickeringCarousel/aa2.jpg'
-import aa3 from '../images/FlickeringCarousel/aa3.jpg'
-import aa4 from '../images/FlickeringCarousel/aa4.jpg'
+import a00 from '../images/FlickeringCarousel/a00.jpg'
+import a01 from '../images/FlickeringCarousel/a00.jpg'
+import a02 from '../images/FlickeringCarousel/a01.jpg'
+import a03 from '../images/FlickeringCarousel/a02.jpg'
+import a04 from '../images/FlickeringCarousel/a04.jpg'
+import a05 from '../images/FlickeringCarousel/a05.jpg'
+import a06 from '../images/FlickeringCarousel/a06.jpg'
+import a07 from '../images/FlickeringCarousel/a07.jpg'
+import a08 from '../images/FlickeringCarousel/a08.jpg'
+import a09 from '../images/FlickeringCarousel/a09.jpg'
 
 // Flickering carousel for the about us section, work on a principle of adding +1 to a 0 index number 
 // and selecting that index fron the images array
 
 function FlickeringCarousel() {
 
-const images = [aa, aa2, aa3, aa4];
+const images = [a00 , a01 , a02 , a03 , a04 , a05 , a06 , a07 , a08 , a09];
 
 
 const [index, setIndex] = useState(0);
