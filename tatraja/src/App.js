@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import HeroSection from './components/HeroSection.js';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
 
@@ -39,6 +40,8 @@ function App() {
     <Charity/>
 
     <VoteCharity/>
+
+    <Footer/>
     </div>
   );
 }
