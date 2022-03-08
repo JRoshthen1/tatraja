@@ -1,6 +1,5 @@
 import React from 'react'
 import TeamProfile from '../components/TeamProfile'
-import AboutTeam from '../components/AboutTeam'
 
 
 function Team() {
@@ -11,11 +10,9 @@ function Team() {
   return (
     <div>
         <h1 className='text-5xl text-white font-fredericka m-20'>Team</h1>
+
         {/* Sidescroll Content Container  */}
         <div className="flex overflow-x-auto font-nunito">
-            <AboutTeam
-            btnText='Visit our portfolio'
-            />
 
             <TeamProfile 
             name="Martin Jaros" 
