@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <>
-        <img className='mx-10 mask h-96 sm:h-auto sm:w-screen sm:mx-4 kokotko' src={images[index % images.length]} />
+        <img className='neonShadow' src={images[index % images.length]} />
     </>
   )
 }

@@ -1,10 +1,7 @@
 import React from 'react'
-import DiscordLink from './SocialMediaLinks/DiscordLink'
-import FacebookLink from './SocialMediaLinks/FacebookLink'
-import InstagramLink from './SocialMediaLinks/InstagramLink'
-import LinkedInLink from './SocialMediaLinks/LinkedInLink'
-import CustomLink from './SocialMediaLinks/CustomLink'
-import PinterestLink from './SocialMediaLinks/PinterestLink'
+import dima from '../images/profilePics/dima.png'
+
+
 
 function TeamProfile(props) {
   return (
