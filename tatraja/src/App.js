@@ -30,7 +30,7 @@ function App() {
     <div className="flex-col bg-darkBlue justify-center max-w-[1920px]"> 
     <NavBar/>
     <HeroSection/>
-
+    <Aboutus/>
     
 
     <Mint/>

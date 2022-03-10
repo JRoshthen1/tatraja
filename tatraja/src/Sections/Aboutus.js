@@ -1,7 +1,22 @@
 import Roadmap from '../components/Roadmap';
+import Roadmapmb from '../components/Roadmapmb';
 import FlickeringCarousel from '../components/FlickeringCarousel';
+import { useEffect, useState } from 'react'
 
 const Aboutus = () => {
+
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 1000;
+
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth)
+    window.addEventListener("resize", handleWindowResize);
+
+    // Return a function from the effect that removes the event listener
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
+ 
 
 
 
@@ -37,9 +52,7 @@ const Aboutus = () => {
 
           </div>
         </div>
-        <Roadmap/>
-
-
+        {width < breakpoint ? <Roadmapmb/> : <Roadmap />}
         </div>
         
   )
