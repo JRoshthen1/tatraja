@@ -1,0 +1,41 @@
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.clouds {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .midground {
+    transform: translateZ(-5px) scale(1.5);
+    left: 10em;
+  }
+
+  .foreground {
+    transform: translateZ(0px) scale(1);
+    top: 90%;
+  }
+  
+  .midground,
+  .foreground{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
