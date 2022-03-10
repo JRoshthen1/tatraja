@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import HeroSection from './Sections/HeroSection.js';
 import Mint from './Sections/Mint';
 import Faq from './Sections/Faq';
-import Charity from './Sections/Charity';
 import VoteCharity from './Sections/VoteCharity';
 import Aboutus from './Sections/Aboutus';
 import Team from './Sections/Team';
@@ -37,12 +36,10 @@ function App() {
     <Mint/>
 
     <Team/>
-    
-    <Faq/>
-    
-    <Charity/>
 
     <VoteCharity/>
+
+    <Faq/>
 
     <Footer/>
     </div>

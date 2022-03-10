@@ -11,3 +11,8 @@
     border-left: 10px solid hsl(60, 100%, 97%);
     box-shadow: 5px 2px 5px rgb(255, 255, 0), 10px 10px 10px rgba(201, 28, 201, 0.692), 15px 10px 10px rgba(0, 255, 0, 0.479);
 }
+
+.calcSvg {
+    width: calc(100% + 1.3px);
+}
+

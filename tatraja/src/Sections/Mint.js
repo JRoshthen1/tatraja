@@ -3,6 +3,9 @@ import Film from '../svg/Film'
 import Print from '../svg/Print'
 import Token from '../svg/Token'
 import TranslateCarousel from '../components/TranslateCarousel'
+import MintButton from '../components/MintButton'
+
+
 
 
 const Mint = () => {
@@ -25,10 +28,13 @@ const Mint = () => {
             <li>Full ownership of NFT you own for commercial and private uses</li>
             <li>6 months free trial to our Hub platform</li>
           </ul>
-        {/*    Translating carousel   */}
+
 
       </div>
 
+
+<MintButton/>
+        {/*    Translating carousel   */}
 <TranslateCarousel/>
 
     </div>

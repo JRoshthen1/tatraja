@@ -50,7 +50,7 @@ function Team() {
             bio="Photographer, Sound designer & Team recruiter "
             trait1="Analog photography"
             trait2="Music"
-            trait3="SMM"
+            trait3="Social Media Management"
             trait4="Desing"
             trait5="Graphics"
             more='https://tatraja.art/creators/dmytro'

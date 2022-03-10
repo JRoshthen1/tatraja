@@ -42,7 +42,6 @@ function NavBar() {
         <a href="#about" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
         <a href="#faq" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
         <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
-        <a href="#mint" className="btn px-12 bg-white text-lg text-darkerGray rounded hover:scale-105 hover:bg-mint duration-200">MINT</a>
       </div>
 
 
@@ -76,7 +75,8 @@ function NavBar() {
 
           <div className='flex flex-col text-2xl justify-center items-center space-x-4 my-24'>
 
-          <a href="" className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
+          <a href="mailto:mail@tatraja.art?subject=Hello Tatraja, I would like to collaborate" 
+             className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
             <hr className='w-6/12 text-center'/>
             
             <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
@@ -91,7 +91,6 @@ function NavBar() {
             <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
             <hr className='w-6/12 text-center'/>
 
-            <a href="#mint" className="btn w-48 bg-white text-lg text-darkerGray mt-5 m-3">MINT</a>
 
           </div>
         </div>
