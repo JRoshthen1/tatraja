@@ -5,6 +5,7 @@
     perspective: 10px;    
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
 }
 
 .parallax {
@@ -16,27 +17,47 @@
     z-index: -1;
 }
 
-.clouds {
+.heading {
+  transform: translateZ(-50px) scale(5);
+}
+
+.cloud {
     transform: translateZ(-10px) scale(2);
+    width: 150%;
   }
   
   .midground {
-    transform: translateZ(-5px) scale(1.5);
-    left: 10em;
+    transform: translateZ(-5px) scale(1.2);
+    left: 5em;
+    top: 70%;
+    
   }
 
   .foreground {
-    transform: translateZ(0px) scale(1);
-    top: 90%;
+    transform: translateZ(0px) scale(1.1);
+    top: 100%;
+
   }
   
   .midground,
   .foreground{
   position: absolute;
-  height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+.foreground-sm{
+  position: absolute;
+  bottom:0;
+  display: none;
+
+}
+
+.midground-sm{
+  position: absolute;
+  bottom:4em;
+  display: none;
 }
 
 @media screen and (max-width: 639px) {
@@ -45,10 +66,6 @@
     perspective: 10px;
   }
 
-
-  .clouds {
-    transform: translateZ(-10px) scale(2.5);
-  }
   
   .midground {
     transform: translateZ(-5px) scale(1.5);
@@ -61,14 +78,28 @@
     top: 90%;
     justify-self: end;
   }
+  .cloud {
+    transform: translateZ(-10px) scale(2);
+    width: 150%;
+    top: 0;
+    position: absolute;
+  }
   
-  .parallax {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index: -1;
-}
 }
 
+@media screen and (max-width: 1250px) {
+
+  .midground {
+    top: 80%;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+
+  .midground {
+    transform: translateZ(-5px) scale(1.5);
+    top: 90%;
+  }
+
+}
