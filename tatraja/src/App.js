@@ -28,9 +28,8 @@ function App() {
 
 
   return (
-    <div className="flex-col bg-darkBlue justify-center scroll-smooth  max-w-[1920px]"> 
+    <div className="flex-col bg-darkBlue justify-center max-w-[1920px]"> 
     <NavBar/>
-
 
     <Aboutus/>
 

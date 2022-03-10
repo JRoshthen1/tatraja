@@ -1,16 +1,16 @@
 import React from 'react'
 import { useState , useEffect} from 'react'
 
-import a00 from '../images/FlickeringCarousel/a00.jpg'
-import a01 from '../images/FlickeringCarousel/a00.jpg'
-import a02 from '../images/FlickeringCarousel/a01.jpg'
-import a03 from '../images/FlickeringCarousel/a02.jpg'
-import a04 from '../images/FlickeringCarousel/a04.jpg'
-import a05 from '../images/FlickeringCarousel/a05.jpg'
-import a06 from '../images/FlickeringCarousel/a06.jpg'
-import a07 from '../images/FlickeringCarousel/a07.jpg'
-import a08 from '../images/FlickeringCarousel/a08.jpg'
-import a09 from '../images/FlickeringCarousel/a09.jpg'
+import a00 from '../images/FlickeringCarousel/a20.jpg'
+import a01 from '../images/FlickeringCarousel/a21.jpg'
+import a02 from '../images/FlickeringCarousel/a22.jpg'
+import a03 from '../images/FlickeringCarousel/a23.jpg'
+import a04 from '../images/FlickeringCarousel/a24.jpg'
+import a05 from '../images/FlickeringCarousel/a25.jpg'
+import a06 from '../images/FlickeringCarousel/a26.jpg'
+import a07 from '../images/FlickeringCarousel/a27.jpg'
+import a08 from '../images/FlickeringCarousel/a28.jpg'
+import a09 from '../images/FlickeringCarousel/a29.jpg'
 
 // Flickering carousel for the about us section, works on a principle of adding +1 to a 0 index number 
 // and selecting that index fron the images array
@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <>
-        <img className='neonShadow' src={images[index % images.length]} />
+        <img className='neonShadow rounded-3xl sm:rounded-xl' src={images[index % images.length]} />
     </>
   )
 }
