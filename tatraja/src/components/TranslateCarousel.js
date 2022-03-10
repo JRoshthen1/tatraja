@@ -25,17 +25,15 @@ import a19 from '../images/FlickeringCarousel/a19.jpg'
 function TranslateCarousel() {
 
 
-    
+  const images = [a07 , a08 , a09 , a10 , a11 , a12 , a13 , a14 , a15 , a16 , a17 , a18 , a19 ];
 
-        const images = [a07 , a08 , a09 , a10 , a11 , a12 , a13 , a14 , a15 , a16 , a17 , a18 , a19 ];
 
 
   useEffect(() => {
     gsap.to(".box", {
       x: -500,
-      duration: 1,
+      duration: 3,
       repeat: -1,
-      repeatDelay: 1,
       yoyo: true,
       ease: "none",
     });
@@ -43,11 +41,13 @@ function TranslateCarousel() {
     
     
     return (
-      <div className="flex overflow-x-hidden space-x-4 " >
+      <div className=' w-screen'>
+              <div className="flex overflow-x-hidden space-x-4 " >
 
-    {images.map((image) => (
-        <img src={image} className="box w-44 h-84 mb-5 lightShadow"/>
-              ))}
+{images.map((image) => (
+    <img src={image} className="box w-44 h-84 mb-5 lightShadow"/>
+          ))}
+  </div>
       </div>
     );
 
