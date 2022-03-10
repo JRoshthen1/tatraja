@@ -12,7 +12,7 @@ import a07 from '../images/FlickeringCarousel/a07.jpg'
 import a08 from '../images/FlickeringCarousel/a08.jpg'
 import a09 from '../images/FlickeringCarousel/a09.jpg'
 
-// Flickering carousel for the about us section, work on a principle of adding +1 to a 0 index number 
+// Flickering carousel for the about us section, works on a principle of adding +1 to a 0 index number 
 // and selecting that index fron the images array
 
 function FlickeringCarousel() {
