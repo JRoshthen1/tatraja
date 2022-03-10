@@ -18,6 +18,9 @@
 text {
   fill: white;
   font-size: 15px;
-  font-family: "Signika Negative", sans-serif; 
   visibility: hidden;
+}
+
+.text01 {
+  font-size: 40px;
 }

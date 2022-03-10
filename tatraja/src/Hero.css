@@ -39,3 +39,36 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 639px) {
+  .wrapper {
+    height: 100vh;
+    perspective: 10px;
+  }
+
+
+  .clouds {
+    transform: translateZ(-10px) scale(2.5);
+  }
+  
+  .midground {
+    transform: translateZ(-5px) scale(1.5);
+    left: 2em;
+    top: 90%;
+  }
+
+  .foreground {
+    transform: translateZ(0px) scale(1);
+    top: 90%;
+    justify-self: end;
+  }
+  
+  .parallax {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+}
+

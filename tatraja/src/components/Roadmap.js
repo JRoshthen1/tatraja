@@ -3,7 +3,7 @@ import React from 'react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { useRef, useEffect } from 'react'
+import { useEffect } from 'react'
 
 
 
@@ -16,15 +16,15 @@ useEffect(() => {
 
   const pulses = gsap.timeline({
     defaults: {
-      scale: 2,
+      scale: 1.5,
       autoAlpha:1,
       transformOrigin: 'center', 
       ease: "elastic(2.5, 1)"
     }})
-  .to(".ball02, .text01", {}, 0.84) 
-  .to(".ball03, .text02", {}, 1.36)
-  .to(".ball04, .text03", {}, 1.92)
-  .to(".ball05, .text04", {}, 2.28)
+  .to(".ball02, .text01", {}, 0.5) 
+  .to(".ball03, .text02", {}, 2.15)
+  .to(".ball04, .text03", {}, 3.5)
+  .to(".ball05, .text04", {}, 2.38)
 
   const main = gsap.timeline({
     scrollTrigger: {
@@ -35,7 +35,7 @@ useEffect(() => {
     }
   })
   .to(".ball01" , {autoAlpha:1, duration:0.05})
-  .from(".theLine", { duration:4}, 0)
+  .from(".theLine", { duration:5}, 0)
   .to(".ball01", {motionPath:{
     path:".theLine",
     align:".theLine",
@@ -48,77 +48,31 @@ useEffect(() => {
 
   
   return (
-    <div className='relative w-screen max-w-[1920px] flex justify-center items-center'>
+
+    <div className='relative flex flex-col justify-center items-center'>
 
 
 
-<svg className='w-[60vw] h-[300vh] sm:w-[100vh]' id="svg"  preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-
-      <path className="line01 line" d="M 10 200  600 200" ></path>
-      <path className="line02 line" d="M 10 400  600 400" ></path>
-      <path className="line03 line" d="M 10 600  600 600" ></path>
-      <path className="line04 line" d="M 10 800  600 800" ></path>
-      <path className="line05 line" d="M 10 1000  600 1000" ></path>
-      <text className="text01" x="30" y="190">2021</text>
-      <text className="text02" x="30" y="390">2022</text>
-      <text className="text03" x="49" y="590">2023</text>
-
-
-
-    <path className='theLine'
-        d="M1204.5 2.00106C1204.5 2.00106 1362.5 215.5 1178 286.5C993.5 357.5 903.5 578.5 744.5 526.5C585.5 474.5 397.499 489
-         322.499 630.499C247.5 771.999 -76.9997 873.499 21.4998 725.999C119.999 578.5 183.5 931 397.5 931C611.5 931 666.5 879 
-         777.999 984.498C889.499 1090 955.356 1110.5 1108 1060C1260.64 1009.5 1418 1298.5 1247.5 1362C1077 1425.5 1167.33 1728.83 
-         1167.33 1728.83"
-        stroke="white" stroke-width="6" stroke-dasharray="25 25" />
-
-
-<circle className="ball ball01" r="20" cx="50" cy="100"></circle>
-  <circle className="ball ball02" r="20" cx="278" cy="201"></circle>
-  <circle className="ball ball03" r="20" cx="327" cy="401"></circle>
-  <circle className="ball ball04" r="20" cx="203" cy="601"></circle>
-
-
-
-</svg>
-
-
-
-
-
-  {/*  <svg className=' w-1/2 xl:w-1/3' id="svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 600 1200">
-  <path className="line01 line" d="M 10 200  600 200" ></path>
-  <path className="line02 line" d="M 10 400  600 400" ></path>
-  <path className="line03 line" d="M 10 600  600 600" ></path>
-  <path className="line04 line" d="M 10 800  600 800" ></path>
-  <path className="line05 line" d="M 10 1000  600 1000" ></path>
-  <text className="text01" x="30" y="190">2021</text>
-  <text className="text02" x="30" y="390">2022</text>
-  <text className="text03" x="49" y="590">2023</text>
+<svg className='w-3/4' id="svg" viewBox="0 0 1412 2037" fill="none" xmlns="http://www.w3.org/2000/svg">
 
   <path className="theLine" 
-        d="M -5,0
-           Q 450 230 300 450 
-           T 130 750
-           Q 100 850 300 1000
-           T 150 1200"
-        fill="none" stroke="white" stroke-width="10px" />
-  
+       d="M1225.5 72.0008C1225.5 72.0008 1383.5 285.5 1199 356.5C1014.5 427.5 924.5 648.5 765.5 596.5C606.5 544.5 418.499 559 343.499 700.499C268.5 841.998 -55.9997 943.498 42.4998 795.999C140.999 648.5 204.5 1001 418.5 1001C632.5 1001 687.5 949 798.999 1054.5C910.499 1160 976.356 1180.5 1129 1130C1281.64 1079.5 1439 1368.5 1268.5 1432C1098 1495.5 1188.33 1798.83 1188.33 1798.83" stroke="white" stroke-width="6" stroke-dasharray="25 25"/>
   
   
   <circle className="ball ball01" r="20" cx="50" cy="100"></circle>
-  <circle className="ball ball02" r="20" cx="278" cy="201"></circle>
-  <circle className="ball ball03" r="20" cx="327" cy="401"></circle>
-  <circle className="ball ball04" r="20" cx="203" cy="601"></circle>
+  <circle className="ball ball02" cx="1072" cy="439" r="30" fill="white" ></circle>
+  <circle className="ball ball03"cx="328" cy="974" r="30" fill="white"></circle>
+  <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
-
-
-*/}
+<div className='text01 absolute top-36 left-40 font-fredericka'>
+<h1 className='text-8xl w-20'>Something About</h1>
+<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+</div>
     </div>
+
+  
     
   )
 }
-
 export default Roadmap

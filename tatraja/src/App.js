@@ -32,7 +32,7 @@ function App() {
     <NavBar/>
     <HeroSection/>
 
-    <Aboutus/>
+    
 
     <Mint/>
 

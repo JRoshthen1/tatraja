@@ -10,10 +10,10 @@ import Foreground from '../svg/hero/ForeGround.svg'
 function HeroSection() {
 
   return (
-  <div className='wrapper'>
-   <div class="parallax">
+  <div className='wrapper flex flex-col'>
+   <div className="parallax">
     <div className='clouds'> <img src={Clouds}></img> </div>
-    <div className='midground'> <img src={Mountains}></img> </div>
+    <div className='midground '> <img src={Mountains}></img> </div>
     <div className='foreground'> <img src={Foreground}></img> </div>
 </div>
 </div>
