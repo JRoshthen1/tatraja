@@ -40,7 +40,7 @@ useEffect(() => {
 
   return (
     <>
-        <img className='neonShadow rounded-3xl sm:rounded-xl' alt='flickering Carousel of pictures from collection' src={images[index % images.length]} />
+        <img className='neonShadow rounded-3xl sm:rounded-xl border-l border-t border-darkGreen ' alt='flickering Carousel of pictures from collection' src={images[index % images.length]} />
     </>
   )
 }
