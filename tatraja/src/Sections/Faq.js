@@ -28,11 +28,12 @@ function Faq() {
               li5='Full ownership of NFT you own for commercial and private uses'/>
 
 
-        <CollapseOL question='How do I mint NFT?' answer='You need to own a wallet (Metamask) with funds available on wallet, and be connected to Solana blockchain.' 
-              li1='Connect your wallet to our website when clicking on Mint button'
-              li2='After clicking a Mint button, you will be prompted to open your wallet, and accept the transaction'
-              li3='Wait until transaction is done. Don`t close you browser when waiting for transaction to happen. We are not in control of speed on the blockchain, and sometimes it can take little more time to process.'
-              li4='Claim your rewards and bonuses, welcome on board of TaTraja'/>
+        <CollapseOL question='How do I mint NFT?' answer='You need to own a wallet (Metamask), with funds available on wallet, and be connected to Solana blockchain.' 
+              li1='Connect your wallet to our website when clicking on "Connect Wallet"'
+              li2='After that you will be prompted to open your wallet.'
+              li3='If you have successfully connected your wallet, the connect button will change into mint button.'
+              li4='Click the button and wait until transaction is done. Don`t close you browser when waiting for transaction to happen. We are not in control of speed on the blockchain, and sometimes it can take little more time to process.'
+              li5='Claim your rewards and bonuses, welcome on board of TaTraja'/>
 
         </div>
         

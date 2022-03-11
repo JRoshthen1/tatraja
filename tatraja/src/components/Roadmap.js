@@ -49,7 +49,7 @@ useEffect(() => {
   
   return (
 
-    <div className='relative flex flex-col justify-center items-center'>
+    <div className=' text-lightestGray relative flex flex-col justify-center items-center'>
 
 
 
@@ -65,8 +65,18 @@ useEffect(() => {
   <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
-<div className='text01 absolute top-36 left-40 font-fredericka'>
-<h1 className='text-8xl w-20'>Something About</h1>
+<div className='text01 absolute top-36 left-40 '>
+<h1 className='text-8xl w-20 font-fredericka'>Vision</h1>
+<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+</div>
+
+<div className='text01 absolute top-78 right-40 text-right'>
+<h1 className='text-8xl w-20 text-right font-fredericka'>Plan</h1>
+<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+</div>
+
+<div className='text01 absolute bottom-48 left-40'>
+<h1 className='text-8xl w-20 font-fredericka'>Art</h1>
 <p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
     </div>

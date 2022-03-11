@@ -43,13 +43,6 @@ const Aboutus = () => {
             of any anomalies or satisfactions in short amount of time and not focusing on what it 
             accualy is, that makes photo visualy appealing. With analog camera, photographer is looking 
             for right opportunity to take fraction of time, light, mood and feeling into small window of film.</p>
-          
-
-          <div class="tooltip tooltip-bottom" data-tip="Scroll to Mint">
-          <a href='#mint' className='btn w-36 text-xl font-link bg-white text-darkestGray hover:bg-mint'>Mint</a>
-          </div>
-          
-
           </div>
         </div>
         {width < breakpoint ? <Roadmapmb/> : <Roadmap />}

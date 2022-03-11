@@ -16,7 +16,6 @@ module.exports = {
       serif: ['Scope One', 'serif'],
       link: ['Alegreya Sans SC, cursive'],
       cinzel: ['Cinzel', 'display'],
-      molengo: ['Molengo', 'sans-serif'],
 
     },
     extend: {
@@ -68,4 +67,8 @@ module.exports = {
   plugins:
   
     [require("daisyui")],
+
+  daisyui: {
+    themes: false,
+  },
 }
