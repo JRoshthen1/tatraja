@@ -10,7 +10,7 @@ function TeamProfile(props) {
                 <div className="card w-80 glass">
                     <figure className="pt-4">
                     <div className="w-44 mask mask-squircle">
-                        <img src={props.avatar}/>
+                        <img src={props.avatar} alt='Team member profile picture'/>
                     </div>
                     </figure>
                     <div className="card-body">

@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import logo from '../images/logo-no-text.png'
-import gsap from 'gsap'
 
 function NavBar() {
 {/* Setting hook for navbar */}

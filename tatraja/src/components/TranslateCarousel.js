@@ -1,5 +1,5 @@
 import React from 'react'
-import {useEffect , useRef} from 'react'
+import {useEffect } from 'react'
 
 import gsap from 'gsap'
 
@@ -45,7 +45,7 @@ function TranslateCarousel() {
               <div className="flex overflow-x-hidden space-x-4 " >
 
 {images.map((image) => (
-    <img src={image} className="box w-44 h-84 mb-5 lightShadow"/>
+    <img src={image} alt='Sliding Carousel of pictures from collection' className="box w-44 h-84 mb-5 lightShadow"/>
           ))}
   </div>
       </div>
