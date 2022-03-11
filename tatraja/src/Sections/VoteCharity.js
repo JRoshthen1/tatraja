@@ -3,7 +3,7 @@ import React from 'react'
 function VoteCharity() {
   return (
     <div className=" text-darkestGray relative bg-cover flex flex-col justify-center items-center bg-lightestGray">  
-                <div class="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
+                <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
                     <svg className='relative h-20 block calcSvg' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#13161D"></path>
                     </svg>
@@ -26,7 +26,7 @@ function VoteCharity() {
             </div>
 
 
-          <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] rotate-180">
+          <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] rotate-180">
             <svg className='relative h-20 block calcSvg' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#13161D"></path>
             </svg>

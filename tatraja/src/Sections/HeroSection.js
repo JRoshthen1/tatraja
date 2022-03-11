@@ -1,8 +1,6 @@
 import React from 'react'
 import '../Hero.css';
 
-import gsap from 'gsap'
-
 import Mountains from '../svg/hero/Mountains.svg'
 import Cloud from '../svg/hero/Clouds.svg'
 import Foreground from '../svg/hero/Foreground.svg'

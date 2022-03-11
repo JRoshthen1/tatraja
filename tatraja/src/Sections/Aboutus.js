@@ -35,8 +35,8 @@ const Aboutus = () => {
           <div className='flex flex-col w-1/2 m-4 lg:m-16 md:m-8 sm:w-auto md:text-center sm:text-center lg:text-right lg:items-end justify-center md:items-center sm:items-center '>
             <h1 className="text-white text-6xl sm:text-5xl font-fredericka my-6 sm:mt-6">Our NFT collection</h1>
             <div className='flex flex-row space-x-2'>
-              <div class="badge badge-lg bg-purplePink">New!</div>
-              <div class="badge badge-lg">Drawing with Light</div>
+              <div className="badge badge-lg bg-purplePink">New!</div>
+              <div className="badge badge-lg">Drawing with Light</div>
             </div>
             <p className='text-white font-nunito my-6 text-lg sm:text-lg'>
             Our collection of 333 unique ANALOG NFT's is reflecting on today's trend take lots of photos 

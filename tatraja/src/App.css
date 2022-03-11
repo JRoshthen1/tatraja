@@ -2,6 +2,7 @@
     box-shadow: rgba(206, 63, 153, 0.4) 5px 5px 3px, 
     rgba(185, 27, 172, 0.3) 10px 10px 3px, rgba(185, 46, 240, 0.2) 15px 15px 3px, 
     rgba(98, 46, 240, 0.1) 20px 20px 3px, rgba(46, 240, 149, 0.05) 25px 25px 3px;
+    outline: #3E4F4E dotted 1px;
 }
 
 .lightShadow{
