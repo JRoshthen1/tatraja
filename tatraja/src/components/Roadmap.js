@@ -16,13 +16,15 @@ useEffect(() => {
 
   const pulses = gsap.timeline({
     defaults: {
-      scale: 1.5,
+      scale: 1.2,
       autoAlpha:1,
       transformOrigin: 'center', 
-      ease: "elastic(2.5, 1)"
+      ease: "circ",
+      duration: 1.3
+      
     }})
-  .to(".ball02, .text01", {}, 0.5) 
-  .to(".ball03, .text02", {}, 2.15)
+  .to(".ball02, .text01", {}, 0.2) 
+  .to(".ball03, .text02", {}, 2)
   .to(".ball04, .text03", {}, 3.5)
 
   const main = gsap.timeline({
@@ -50,8 +52,6 @@ useEffect(() => {
 
     <div className=' text-lightestGray relative flex flex-col justify-center items-center'>
 
-
-
 <svg className='w-3/4' id="svg" viewBox="0 0 1412 2037" fill="none" xmlns="http://www.w3.org/2000/svg">
 
   <path className="theLine" 
@@ -64,19 +64,19 @@ useEffect(() => {
   <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
-<div className='text01 absolute top-36 left-40 '>
-<h1 className='text-8xl w-20 font-fredericka'>Vision</h1>
-<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+<div className='text01 absolute top-56 left-40 p-4 px-12 bg-darkestPurple bg-opacity-10 border-darkGreen border border-opacity-20 rounded-lg'>
+<h1 className='text-8xl w-72 font-fredericka'>Vision</h1>
+<p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
 
-<div className='text01 absolute top-78 right-40 text-right'>
-<h1 className='text-8xl w-20 text-right font-fredericka'>Plan</h1>
-<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+<div className='text02 text-right absolute top-1/3 mt-8 right-40 border-r border-darkGreen rounded-full outline-offset-4 pr-10'>
+<h1 className='text-8xl w-72 text-right font-fredericka'>Plan</h1>
+<p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
 
-<div className='text01 absolute bottom-48 left-40'>
-<h1 className='text-8xl w-20 font-fredericka'>Art</h1>
-<p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+<div className='text03 absolute  bottom-1/4 left-1/3 border-l border-darkGreen pl-10 '>
+<h1 className='text-8xl  w-72 font-fredericka'>Art</h1>
+<p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
     </div>
 

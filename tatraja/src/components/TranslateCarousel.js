@@ -31,10 +31,10 @@ function TranslateCarousel() {
   useEffect(() => {
     gsap.to(".box", {
       x: -700,
-      duration: 4,
+      duration: 6,
       repeat: -1,
       yoyo: true,
-      ease: "none",
+      ease: "circ",
     });
   }, []);
     
