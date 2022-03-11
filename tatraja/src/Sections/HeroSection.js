@@ -3,7 +3,7 @@ import '../Hero.css';
 
 import Mountains from '../svg/hero/Mountains.svg'
 import Cloud from '../svg/hero/Clouds.svg'
-import Foreground from '../svg/hero/Foreground.svg'
+import Foreground from '../svg/hero/ForeGround.svg'
 import smfr from '../svg/hero/sm-fr.svg'
 import smmt from '../svg/hero/sm-mt.svg'
 
