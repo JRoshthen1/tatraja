@@ -28,9 +28,9 @@ const Aboutus = () => {
         <div className='flex flex-col lg:flex-row justify-around items-center py-24'>
             
             <div className='w-1/2 flex justify-center'>
-              {/** 
+
             <FlickeringCarousel/>
-            */}
+
             </div>
 
 
