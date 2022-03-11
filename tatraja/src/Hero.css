@@ -8,13 +8,17 @@
     background-color: aliceblue;
 }
 
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .parallax {
     position: relative;
     justify-content: center;
     align-items: center;
     height: 100%;
     transform-style: preserve-3d;
-    z-index: -1;
+    
 }
 
 .heading {
@@ -61,12 +65,31 @@
   display: none;
 }
 
+.cont {
+ width: 100%;
+ height: 10em;
+ bottom: -6em;
+ position: absolute;
+ background-color: #13161d;
+ border: solid #13161d;
+}
+
 
 @media screen and (max-width: 1250px) {
 
   .midground {
     top: 90%;
   }
+
+  .cont {
+    width: 100%;
+    height: 10em;
+    bottom: -7em;
+    position: absolute;
+    background-color: #13161d;
+    border: solid 5px #13161d;
+   }
+   
 
 }
 
@@ -77,6 +100,11 @@
     top: 95%;
   }
 
+  .cont {
+    height: 5em;
+    bottom: -4.5em;
+   }
+
 }
 
 @media screen and (max-width: 639px) {
@@ -84,6 +112,8 @@
     height: 100vh;
     perspective: 10px;
   }
+
+  
 
   
   .midground {

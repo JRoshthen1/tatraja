@@ -15,10 +15,13 @@ function HeroSection() {
      <h1 className='heading absolute text-8xl font-cinzel font-bold text-black'>TATRAJA ART</h1>
     <div className='cloud'><img src={Cloud} alt='parallax background cloud'></img> </div>
     <div className='midground'><img src={Mountains} alt='parallax background mountain'></img> </div>
-    <div className='foreground'><img src={Foreground} alt='parallax background foreground'></img> </div>
+    <div className='foreground'><img src={Foreground} alt='parallax background foreground'></img> 
+    <div className='cont'></div></div>
     <div className='midground-sm'><img src={smfr} alt='parallax background mountain small device'></img> </div>
     <div className='foreground-sm'><img src={smmt} alt='parallax background foreground small device'></img> </div>
+    
 </div>
+
 </div>
   )
 }
