@@ -7,11 +7,12 @@ import MintButton from '../components/MintButton'
 
 
 
-
 const Mint = () => {
+
+
   return (
     <div id='mint' className='flex flex-col justify-center items-center text-white'>
-      <div className='flex flex-col justify-center sm:m-6 m-10 p-6 md:w-128 border-darkGreen border bg-darkerGray bg-opacity-30 border-collapse rounded-md'>
+      <div className='flex flex-col justify-center sm:m-6 m-10 p-6 w-screen border-darkGreen border bg-darkerGray bg-opacity-30 border-collapse rounded-md'>
         <div className='text-5xl  font-fredericka mb-10 text-center'>Mint our NFT</div>
         <p className='mb-10 text-lg text-center'>By purchasing our Non Fungable Token, you will get more than just copyright. After minting our NFT, you have the choice to order the <b>original print</b> of the photo as well as the <b>original film</b>, so you are the only one, that can replicate it.</p>
           <div className='flex space-x-5 sm:space-x-3 justify-evenly mt-8'>

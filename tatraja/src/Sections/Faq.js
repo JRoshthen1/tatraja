@@ -5,7 +5,7 @@ import CollapseUL from '../components/CollapseUL'
 
 function Faq() {
   return (
-    <div id='faq'>
+    <div id='faq' >
         <h1 className='font-fredericka text-4xl text-mint text-center m-20 sm:m-12'>Frequently Asked Questions</h1>
         <div className='flex flex-col justify-center items-center'>
         <Collapse question='Who we are and what is TaTraja?' answer='Tatraja was founded on October 15, 2021. Behind the project is the organization TaTraja, which aims to create space for artists and creatives and provide space for self-realization. We provide the opportunity to publish your portfolio on our site in order to find the project, work, experience, friends and colleagues in one place. We try to make visible people and their projects who want to join us as partners, because the team always works better. Our team and members and creators are from Slovakia, Czech Republic, Belarus, Poland, Bulgaria and Ukraine and we are inviting you to join our journey.'/>

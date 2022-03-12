@@ -25,12 +25,12 @@ function Footer() {
                     
                 </div> 
 
-                <div className=' w-3/4 flex flex-col '>
+                <div className=' w-3/4 flex flex-col items-center '>
                     <div className='flex flex-row justify-evenly space-x-4 font-nunito font-bold m-6'> {/* Website Links */}
-                        <a href='#about' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 text-xl sm:text-lg'>About us</a>
-                        <a href='#mint' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 text-xl sm:text-lg'>Minting</a>
-                        <a href='#team' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 text-xl sm:text-lg'>Team</a>
-                        <a href='https://tatraja.art/' target='_blank' rel="noreferrer" className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 text-xl sm:text-lg'>Tatraja Portfolio</a>
+                        <a href='#about' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 lg:text-lg'>About us</a>
+                        <a href='#mint' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 lg:text-lg'>Minting</a>
+                        <a href='#team' className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 lg:text-lg'>Team</a>
+                        <a href='https://tatraja.art/' target='_blank' rel="noreferrer" className='underline italic text-darkGray hover:text-darkerGray hover:scale-105 lg:text-lg'>Tatraja Portfolio</a>
                     </div>
 
                     <div className='flex flex-row space-x-5 justify-center text-xs mt-4 text-darkestGray font-nunito'> {/* Copyright */}

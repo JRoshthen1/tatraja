@@ -21,10 +21,6 @@ import Footer from './components/Footer';
 function App() {
 
 
-  useEffect(() => {
-
-  }, [])
-
 
   return (
     <div className="flex-col bg-darkBlue justify-center"> 

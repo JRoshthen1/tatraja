@@ -34,13 +34,13 @@ function TranslateCarousel() {
       duration: 6,
       repeat: -1,
       yoyo: true,
-      ease: "circ",
+      ease: "none",
     });
   }, []);
     
     
     return (
-      <div className=' w-screen'>
+      <div className='w-screen'>
               <div className="flex overflow-x-hidden space-x-4 " >
 
 {images.map((image) => (

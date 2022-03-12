@@ -24,8 +24,6 @@ useEffect(() => {
   .to(".ball002, .text001", {}, 0.5) 
   .to(".ball003, .text002", {}, 1.8)
   .to(".ball004, .text003", {}, 3.65)
-  .to(".ball005, .text004", {}, 2.38)
-
   const main = gsap.timeline({
     scrollTrigger: {
       trigger: "#svg",
@@ -68,12 +66,12 @@ useEffect(() => {
   <path className='ball ball004' d="M877.462 1368.48C877.462 1379.54 868.335 1388.57 857.005 1388.57C845.676 1388.57 836.549 1379.54 836.549 1368.48C836.549 1357.42 845.676 1348.4 857.005 1348.4C868.335 1348.4 877.462 1357.42 877.462 1368.48Z" stroke="#13161D" stroke-width="4"/>
 
 </svg>
-{/* 
+
 <div className='text01 absolute top-36 left-40 font-fredericka'>
 <h1 className='text-8xl w-20'>Something About</h1>
 <p className=' text-xs w-44'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
-*/}
+
     </div>
 
   
