@@ -4,8 +4,7 @@ import '../Hero.css';
 import Mountains from '../svg/hero/Mountains.svg'
 import Cloud from '../svg/hero/Clouds.svg'
 import Foreground from '../svg/hero/ForeGround.svg'
-import smfr from '../svg/hero/sm-fr.svg'
-import smmt from '../svg/hero/sm-mt.svg'
+import mobilesvg from '../svg/hero/mobile.svg'
 
 function HeroSection() {
 
@@ -17,8 +16,7 @@ function HeroSection() {
     <div className='midground'><img src={Mountains} alt='parallax background mountain'></img> </div>
     <div className='foreground'><img src={Foreground} alt='parallax background foreground'></img> 
     <div className='cont'></div></div>
-    <div className='midground-sm'><img src={smfr} alt='parallax background mountain small device'></img> </div>
-    <div className='foreground-sm'><img src={smmt} alt='parallax background foreground small device'></img> </div>
+
     
 </div>
 
