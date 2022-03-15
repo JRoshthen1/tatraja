@@ -68,18 +68,18 @@ useEffect(() => {
 </svg>
 
     <div className='text-white absolute -top-10 left-10 w-2/3 font-fredericka'>
-    <h1 className=''>Something About</h1>
-    <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface. </p>
+    <h1 className=' text-3xl'>Something About</h1>
+    <p className='font-nunito text-sm w-2/3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface. </p>
     </div>
 
     <div className='text-white absolute top-1/4 right-10 w-1/2 font-fredericka text-right'>
-    <h1 className=''>Something About</h1>
+    <h1 className=' text-3xl'>Something About</h1>
     <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
     </div>
 
-    <div className='text-white absolute bottom-32 left-10 w-2/3 font-fredericka'>
-    <h1 className=''>Something About</h1>
-    <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
+    <div className='text-white absolute bottom-36 left-10 w-2/3 font-fredericka'>
+    <h1 className=' text-3xl'>Something About</h1>
+    <p className='font-nunito text-sm w-2/3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
     </div>
 
   </div>

@@ -64,7 +64,7 @@ useEffect(() => {
   <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
-<div className='text01 absolute top-56 left-40 p-4 px-12 bg-darkestPurple bg-opacity-10 border-darkGreen border border-opacity-20 rounded-lg'>
+<div className='text01 absolute top-32 left-56 p-4 px-12 bg-darkestPurple bg-opacity-10 border-darkGreen border border-opacity-20 rounded-lg'>
 <h1 className='text-8xl w-72 font-fredericka'>Vision</h1>
 <p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
