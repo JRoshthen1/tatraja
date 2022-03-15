@@ -64,17 +64,17 @@ useEffect(() => {
   <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
-<div className='text01 absolute top-56 left-40 p-4 px-12 bg-darkestPurple bg-opacity-10 border-darkGreen border border-opacity-20 rounded-lg'>
+<div className='text01 absolute top-56 left-40 p-4 px-12 border-l border-darkGreen rounded-full pl-10'>
 <h1 className='text-8xl w-72 font-fredericka'>Vision</h1>
 <p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
 
-<div className='text02 text-right absolute top-1/3 mt-8 right-40 border-r border-darkGreen rounded-full outline-offset-4 pr-10'>
+<div className='text02 text-right absolute top-1/3 mt-8 right-40 border-r border-darkGreen rounded-full pr-10'>
 <h1 className='text-8xl w-72 text-right font-fredericka'>Plan</h1>
 <p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>
 
-<div className='text03 absolute  bottom-1/4 left-1/3 border-l border-darkGreen pl-10 '>
+<div className='text03 absolute  bottom-1/4 left-1/3 border-l border-darkGreen rounded-full pl-10 '>
 <h1 className='text-8xl  w-72 font-fredericka'>Art</h1>
 <p className=' text-sm w-72 font-nunito m-3'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 </div>

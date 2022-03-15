@@ -19,12 +19,31 @@ function NavBar() {
   }
 }
 
+const navbarColor = () => {
+  
+}
+
+var scrollPosition = window.scrollY;
+var logoContainer = document.getElementsByClassName('NavigationBar');
+
+window.addEventListener('scroll', function() {
+
+  scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 30) {
+      logoContainer.classList.add('c-logo--scrolled');
+  } else {
+      logoContainer.classList.remove('c-logo--scrolled');
+  }
+
+});
+
 
 
   return (
 
 //NavBar
-<nav className="bg-darkBlue font-link fixed w-screen shadow-xl z-50 ">
+<nav className={`NavigationBar bg-gradient-to-b font-link fixed w-screen shadow-xl z-50 ${navbarOpen ? "-rotate-45"  : "-translate-y-1.5"}`}>
   <div className="max-w-6xl mx-auto px-4">
     <div className="flex justify-between">
 
@@ -35,12 +54,13 @@ function NavBar() {
 
 {/* Navigation Menu */}
       <div className="hidden md:flex text-lg items-center space-x-1">
-        <a href="mailto:mail@tatraja.art?subject=Hello Tatraja, I would like to collaborate" 
+        <a href="mailto:mail@tatraja.art?subject=Please attach your portfolio and a small cover letter explaining whou you are and why Tatraja interested you?" 
            className="cursor-pointer py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
         <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
         <a href="#about" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
         <a href="#faq" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
         <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
+        
       </div>
 
 
@@ -89,7 +109,6 @@ function NavBar() {
 
             <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
             <hr className='w-6/12 text-center'/>
-
 
           </div>
         </div>

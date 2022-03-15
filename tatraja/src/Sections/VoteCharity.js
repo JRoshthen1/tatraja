@@ -1,4 +1,5 @@
 import React from 'react'
+import Hands from '../svg/Hands.svg'
 
 function VoteCharity() {
   return (
@@ -9,6 +10,8 @@ function VoteCharity() {
                     </svg>
                 </div> 
             
+                <object type="image/svg+xml" data={Hands}>svg-animation</object>
+
             <div className='my-28'>
                 <div className='flex flex-col items-center'>
                     <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>We love our planet, and everything on it!</h1>
@@ -18,6 +21,8 @@ function VoteCharity() {
                       <p className='text-right w-64 p-4'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
                     </div>
               </div>  
+
+
 
               <div className='flex flex-col justify-center items-center'>
                   <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>Vote for your favourite charity!</h1>
