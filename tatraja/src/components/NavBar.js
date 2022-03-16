@@ -36,7 +36,8 @@ function NavBar() {
       <div className="hidden md:flex text-lg items-center space-x-1">
         <a href="mailto:mail@tatraja.art?subject=Please attach your portfolio and a small cover letter explaining whou you are and why Tatraja interested you?" 
            className="cursor-pointer py-4 px-3 text-white hover:text-greenWashed">JOIN US</a>
-        <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons">REDEEM</a>
+        <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons"
+        className="cursor-pointer py-4 px-3 text-white hover:text-greenWashed">REDEEM</a>
         <a href="#about" className="py-4 px-3 text-white hover:text-greenWashed">ABOUT US</a>
         <a href="#faq" className="py-4 px-3 text-white hover:text-greenWashed">FAQ</a>
         <a href="https://tatraja-art.gitbook.io/drawing-with-light-nft-by-tatraja/" target='_blank' rel='noreferrer' className="py-4 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
