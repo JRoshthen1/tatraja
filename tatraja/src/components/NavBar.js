@@ -3,14 +3,13 @@ import { useState } from 'react'
 import logo from '../images/logo-no-text.png'
 
 function NavBar() {
-{/* Setting hook for navbar */}
 
   const [navbarOpen, setNavbarOpen] = useState(false)
 
-{/* Handling the toggle */}
+/* Handling the toggle */
   const handleToggle = () => {
     setNavbarOpen(prev => !prev)
-    if (navbarOpen == false) {
+    if (navbarOpen === false) {
       document.body.style.overflow = 'hidden';
       console.log(navbarOpen)
   }  
@@ -19,31 +18,12 @@ function NavBar() {
   }
 }
 
-const navbarColor = () => {
-  
-}
-
-var scrollPosition = window.scrollY;
-var logoContainer = document.getElementsByClassName('NavigationBar');
-
-window.addEventListener('scroll', function() {
-
-  scrollPosition = window.scrollY;
-
-  if (scrollPosition >= 30) {
-      logoContainer.classList.add('c-logo--scrolled');
-  } else {
-      logoContainer.classList.remove('c-logo--scrolled');
-  }
-
-});
-
 
 
   return (
 
 //NavBar
-<nav className={`NavigationBar bg-gradient-to-b font-link fixed w-screen shadow-xl z-50 ${navbarOpen ? "-rotate-45"  : "-translate-y-1.5"}`}>
+<nav className='bg-darkBlue font-link fixed w-screen shadow-xl z-50'>
   <div className="max-w-6xl mx-auto px-4">
     <div className="flex justify-between">
 

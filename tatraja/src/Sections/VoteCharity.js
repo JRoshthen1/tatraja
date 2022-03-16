@@ -1,5 +1,5 @@
 import React from 'react'
-import Hands from '../svg/Hands.svg'
+import {ReactComponent as HandsStatic} from '../svg/Hand.svg'
 
 function VoteCharity() {
   return (
@@ -10,23 +10,23 @@ function VoteCharity() {
                     </svg>
                 </div> 
             
-                <object type="image/svg+xml" data={Hands}>svg-animation</object>
 
             <div className='my-28'>
                 <div className='flex flex-col items-center'>
                     <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>We love our planet, and everything on it!</h1>
-                    
                     <div className='flex sm:flex-col items-center justify-center '>
-                      <h5 className='sm:font-normal font-bold w-64 p-4'><span className='text-green-700'>13%</span> from every purchase goes to charity of our community selection</h5>            
+                      <h5 className='sm:font-normal font-bold w-64 p-4'><span className='text-green-700'>13%</span> from every purchase goes to charity of our community selection</h5>   
                       <p className='text-right w-64 p-4'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
                     </div>
-              </div>  
 
+                    <HandsStatic className='w-72 my-8'/>
+              </div>  
 
 
               <div className='flex flex-col justify-center items-center'>
                   <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>Vote for your favourite charity!</h1>
-                  <button className='btn w-56 hover:bg-mint text-lg border-0'>Vote</button>
+                  <br/>
+                  <a href='https://www.supersurvey.com/poll4226932xb35944e6-133' target='_blank' rel="noreferrer" className='btn w-56 hover:bg-mint text-lg border-0'>Vote</a>
               </div>
             </div>
 

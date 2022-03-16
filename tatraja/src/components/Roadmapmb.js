@@ -19,11 +19,11 @@ useEffect(() => {
       scale: 1.5,
       autoAlpha:1,
       transformOrigin: 'center', 
-      ease: "elastic(2.5, 1)"
+      ease: "circ"
     }})
-  .to(".ball002, .text001", {}, 0.5) 
-  .to(".ball003, .text002", {}, 1.8)
-  .to(".ball004, .text003", {}, 3.65)
+  .to(".ball002", {}, 0.5) 
+  .to(".ball003", {}, 1.5)
+  .to(".ball004", {}, 3.7)
   const main = gsap.timeline({
     scrollTrigger: {
       trigger: "#svg",
@@ -32,8 +32,8 @@ useEffect(() => {
       end: "bottom center"
     }
   })
-  .to(".ball001" , {autoAlpha:1, duration:0.05})
-  .from(".theLinee", { duration:5}, 0)
+  .to(".ball001" , {autoAlpha:1, duration:0.01})
+  .from(".theLinee", { duration:6}, 0)
   .to(".ball001", {motionPath:{
     path:".theLinee",
     align:".theLinee",
@@ -51,35 +51,32 @@ useEffect(() => {
 
 
 
-<svg className='w-3/4'  id="svg" viewBox="0 0 1412 2037" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className='h-[130vh] w-screen' viewBox="0 0 280 800" id="svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+
 
   <path className="theLinee" 
-      d="M920.25 33.6722C920.25 33.6722 954.803 290.587 810.927 343.642C667.052 396.697 520.449 526.48 386.874 471.331C253.299 416.181 156.855 509.782 120.209 548.882C83.5622 587.982 78.5529 655.508 93.6343 724.729C120.2 846.66 240.698 926.356 339.854 930.762C439.01 935.168 433.268 898.08 540.744 748.603C648.22 599.125 839.721 702.468 940.703 772.75C1041.68 843.032 1065.13 1118.86 932.121 1166.19C799.115 1213.52 892.716 1594.98 892.716 1594.98" stroke="white" strokeWidth="3" strokeDasharray="25 25"/>
+        d="M265 1.09058C265 1.09058 237.499 77 191.499 77C145.5 77 113.5 130.5 148 168.5C182.5 206.5 144.999 242.5 101.999 266.5C58.9994 290.5 41 332.5 52.9996 377.5C71.5196 446.952 -16.6582 470.203 5.00035 507C26.6589 543.797 93.0003 504 155.5 534C218 564 258.707 519.881 270.5 590.5C282.293 661.119 194.997 598.738 155.5 634C116.004 669.262 168.5 767.5 168.5 767.5"
+        stroke="white" stroke-width="3" stroke-dasharray="25 25" />
   
-  
-  <circle className="ball ball001" r="20" cx="50" cy="100"></circle>
-  <circle className="ball ball002" cx="868.208" cy="312.111" r="29.0577" fill="white"></circle>
-  <circle className='ball ball002' cx="868.209" cy="312.112" r="20.0839" stroke="#13161D" stroke-width="4"/>
-  <ellipse className="ball ball003"cx="251.569" cy="912.638" rx="29.5482" ry="29.0577" fill="white"></ellipse>
-  <path className='ball ball003' d="M272.026 912.639C272.026 923.7 262.899 932.723 251.57 932.723C240.24 932.723 231.113 923.7 231.113 912.639C231.113 901.578 240.24 892.555 251.57 892.555C262.899 892.555 272.026 901.578 272.026 912.639Z" stroke="#13161D" stroke-width="4"/>
-  <ellipse className="ball ball004" cx="857.001" cy="1368.48" rx="29.5482" ry="29.0577" fill="white"></ellipse>
-  <path className='ball ball004' d="M877.462 1368.48C877.462 1379.54 868.335 1388.57 857.005 1388.57C845.676 1388.57 836.549 1379.54 836.549 1368.48C836.549 1357.42 845.676 1348.4 857.005 1348.4C868.335 1348.4 877.462 1357.42 877.462 1368.48Z" stroke="#13161D" stroke-width="4"/>
-
+  <circle className="ball ball001" r="10" cx="50" cy="100"></circle>
+  <circle className="ball ball002" cx="160.965" cy="185.965" r="7.96504" fill="white"></circle>
+  <ellipse className="ball ball003" cx="51.0995" cy="354.965" rx="8.09947" ry="7.96504" fill="white"></ellipse>
+  <ellipse className="ball ball004" cx="158.099" cy="743.965" rx="8.09947" ry="7.96504"  fill="white"></ellipse>
 </svg>
 
-    <div className='text-white absolute -top-10 left-10 w-2/3 font-fredericka'>
-    <h1 className=''>Something About</h1>
-    <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface. </p>
+    <div className='text-white absolute -top-10 left-10 pl-2 w-64 font-fredericka bg-darkBlue bg-opacity-70 rounded-4xl'>
+    <h1 className='text-5xl mb-4'>Vision</h1>
+    <p className='font-nunito text-sm'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>
     </div>
 
-    <div className='text-white absolute top-1/4 right-10 w-1/2 font-fredericka text-right'>
-    <h1 className=''>Something About</h1>
-    <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
+    <div className='text-white absolute top-1/3 right-10 pr-2 w-64 font-fredericka text-right bg-darkBlue bg-opacity-70 rounded-4xl'>
+    <h1 className='text-5xl mb-4'>Plan</h1>
+    <p className='font-nunito text-sm'>Tatraja logo will soon appear in your country! Our plan is to create a world wide community where people can talk about their skills or dreams, get guidence and find other people with the same interests.</p>
     </div>
 
-    <div className='text-white absolute bottom-32 left-10 w-2/3 font-fredericka'>
-    <h1 className=''>Something About</h1>
-    <p className='font-nunito text-sm'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
+    <div className='text-white absolute bottom-24 left-10 pl-2 w-64 font-fredericka bg-darkBlue bg-opacity-70 rounded-4xl'>
+    <h1 className='text-5xl mb-4'>Art</h1>
+    <p className='font-nunito text-sm'>-really vague word, isn't it? Sculpturing, painting, performing arts, technology or science. Art is the end result of being imaginative with <span className='font-extrabold'>anything</span> at your hand. That's where we come in, we can drive you to start that long neglected project or help you go forward when you are stuck. Just click on join us and we'll see what we can do.</p>
     </div>
 
   </div>
