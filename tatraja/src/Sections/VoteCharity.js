@@ -26,7 +26,7 @@ function VoteCharity() {
               <div className='flex flex-col justify-center items-center'>
                   <h1 className='p-4 text-4xl text-center leading-normal font-fredericka'>Vote for your favourite charity!</h1>
                   <br/>
-                  <a href='https://www.supersurvey.com/poll4226932xb35944e6-133' target='_blank' rel="noreferrer" className='btn bg-darkBlue bg-opacity-95 w-56 hover:bg-opacity-90 font-link text-lg border-0'>Vote</a>
+                  <a href='https://7vvup7i4av5.typeform.com/to/ZyIpJ15w' target='_blank' rel="noreferrer" className='btn bg-darkBlue bg-opacity-95 w-56 hover:bg-opacity-90 font-link text-lg border-0'>Vote</a>
               </div>
             </div>
 
