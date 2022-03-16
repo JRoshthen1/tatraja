@@ -8,7 +8,7 @@ import ivan from '../images/profilePics/ivan.png'
 
 function Team() {
 
-    {/* import team members from database and display them with filter/map */}
+    /* import team members from database and display them with filter/map */
     
 
   return (
@@ -51,7 +51,7 @@ function Team() {
             trait1="Analog photography"
             trait2="Music"
             trait3="Social Media Management"
-            trait4="Desing"
+            trait4="Design"
             trait5="Graphics"
             more='https://tatraja.art/creators/dmytro'
             btnText='Check out my portfolio'

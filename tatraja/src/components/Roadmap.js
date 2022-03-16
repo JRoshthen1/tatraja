@@ -23,10 +23,10 @@ useEffect(() => {
       duration: 1.3
       
     }})
-  .to(".ball02, .text01", {}, 0.2) 
-  .to(".ball03, .text02", {}, 2)
-  .to(".ball04, .text03", {}, 3.5)
-
+  .to(".ball02, .text01", {}, 0.5) 
+  .to(".ball03, .text02", {}, 1.8)
+  .to(".ball04, .text03", {}, 3.1)
+// eslint-disable-next-line
   const main = gsap.timeline({
     scrollTrigger: {
       trigger: "#svg",
@@ -65,19 +65,19 @@ useEffect(() => {
 
 </svg>
     
-<div className='text01 absolute top-[15%] left-40 pl-6 border-l border-darkGreen border-opacity-40 bg-darkBlue bg-opacity-70'>
+<div className='text01 absolute top-0 left-40 pl-6 border-l border-darkGreen border-opacity-40 bg-darkBlue bg-opacity-70'>
 <h1 className='text-8xl w-72 font-fredericka'>Vision</h1>
-<p className='text-sm w-72 font-nunito m-3'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>
+<p className='text-sm w-72 font-nunito m-3 leading-normal'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>
 </div>
 
 <div className='text02 absolute top-1/3 right-40 text-right border-r border-darkGreen border-opacity-40 bg-darkBlue bg-opacity-70'>
 <h1 className='text-8xl w-72 font-fredericka'>Plan</h1>
-<p className=' text-sm w-72 font-nunito m-3'>Tatraja logo will soon appear in your country! Our plan is to create a world wide community where people can talk about their skills or dreams, get guidence and find other people with the same interests.</p>
+<p className=' text-sm w-72 font-nunito m-3 leading-normal'>Tatraja logo will soon appear in your country! Our plan is to create a world wide community where people can talk about their skills or dreams, get guidence and find other people with the same interests.</p>
 </div>
 
 <div className='text03 absolute bottom-[15%] left-1/3 pl-6 border-l border-darkGreen border-opacity-40 bg-darkBlue bg-opacity-70'>
 <h1 className='text-8xl w-72 font-fredericka'>Art</h1>
-<p className=' text-sm w-72 font-nunito m-3 leading-relaxed'>-really vague word, isn't it? Sculpturing, painting, performing arts, technology or science. Art is the end result of being imaginative with <span className='font-extrabold'>anything</span> at your hand. That's where we come in, we can drive you to start that long neglected project or help you go forward when you are stuck. Just click on join us and we'll see what we can do.</p>
+<p className=' text-sm w-72 font-nunito m-3 leading-normal'>-really vague word, isn't it? Sculpturing, painting, performing arts, technology or science. Art is the end result of being imaginative with <span className='font-extrabold'>anything</span> at your hand. That's where we come in, we can drive you to start that long neglected project or help you go forward when you are stuck. Just click on join us and we'll see what we can do.</p>
 </div>
     </div>
 

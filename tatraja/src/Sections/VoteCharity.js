@@ -13,10 +13,10 @@ function VoteCharity() {
 
             <div className='my-28'>
                 <div className='flex flex-col items-center'>
-                    <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>We love our planet, and everything on it!</h1>
+                    <h1 className='p-4 text-4xl font-fredericka text-center leading-normal'>We love our planet, and everything on it!</h1>
                     <div className='flex sm:flex-col items-center justify-center '>
-                      <h5 className='sm:font-normal font-bold w-64 p-4'><span className='text-green-700'>13%</span> from every purchase goes to charity of our community selection</h5>   
-                      <p className='text-right w-64 p-4'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
+                      <h5 className='sm:font-normal sm:text-center font-bold w-64 p-4'><span className='text-green-700'>13%</span> from every purchase goes to charity of our community selection</h5>   
+                      <p className='text-right sm:text-center w-64 p-4'>Smart contract technology allows us to split the purchase price right in the minting process, to ensure transparency and legitimacy. </p>
                     </div>
 
                     <HandsStatic className='w-72 my-8'/>
@@ -24,9 +24,9 @@ function VoteCharity() {
 
 
               <div className='flex flex-col justify-center items-center'>
-                  <h1 className='p-4 text-4xl sm:text-3xl font-fredericka'>Vote for your favourite charity!</h1>
+                  <h1 className='p-4 text-4xl text-center leading-normal font-fredericka'>Vote for your favourite charity!</h1>
                   <br/>
-                  <a href='https://www.supersurvey.com/poll4226932xb35944e6-133' target='_blank' rel="noreferrer" className='btn w-56 hover:bg-mint text-lg border-0'>Vote</a>
+                  <a href='https://www.supersurvey.com/poll4226932xb35944e6-133' target='_blank' rel="noreferrer" className='btn bg-darkBlue bg-opacity-95 w-56 hover:bg-opacity-90 font-link text-lg border-0'>Vote</a>
               </div>
             </div>
 

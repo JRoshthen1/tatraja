@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import logo from '../images/logo-no-text.png'
+import logo from '../images/LogoTatraja.png'
+
 
 function NavBar() {
 
@@ -11,13 +12,12 @@ function NavBar() {
     setNavbarOpen(prev => !prev)
     if (navbarOpen === false) {
       document.body.style.overflow = 'hidden';
-      console.log(navbarOpen)
   }  
   else {
     document.body.style.overflow = '';
   }
+  
 }
-
 
 
   return (
@@ -28,27 +28,24 @@ function NavBar() {
     <div className="flex justify-between">
 
 {/* Logo */}
-          <a href="http://nft.tatraja.art/" className="flex items-center py-2 px-1 z-50">
-            <img src={logo} alt={logo} className='h-10 ' />
+          <a href="http://nft.tatraja.art/" className="flex items-center m-0 px-1 z-50">
+            <img src={logo} alt='Tatraja logo, link to home' className='h-10' />
           </a>
 
 {/* Navigation Menu */}
       <div className="hidden md:flex text-lg items-center space-x-1">
         <a href="mailto:mail@tatraja.art?subject=Please attach your portfolio and a small cover letter explaining whou you are and why Tatraja interested you?" 
-           className="cursor-pointer py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
-        <a href="#about" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
-        <a href="#faq" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
-        <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
+           className="cursor-pointer py-4 px-3 text-white hover:text-greenWashed">JOIN US</a>
+        <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons">REDEEM</a>
+        <a href="#about" className="py-4 px-3 text-white hover:text-greenWashed">ABOUT US</a>
+        <a href="#faq" className="py-4 px-3 text-white hover:text-greenWashed">FAQ</a>
+        <a href="https://tatraja-art.gitbook.io/drawing-with-light-nft-by-tatraja/" target='_blank' rel='noreferrer' className="py-4 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
         
       </div>
 
 
-
+ {/* Mobile Button */}
       <div className="md:hidden flex items-center">
-     
-
-{/* Mobile Button */}
 
             <button onClick={handleToggle} className="w-14 h-14 relative focus:outline-none z-50">
                 <div className={`block w-5 absolute left-6 top-1/2 transform text-right -translate-x-1/2 -translate-y-1/2`}>
@@ -76,19 +73,21 @@ function NavBar() {
 
           <a href="mailto:mail@tatraja.art?subject=Hello Tatraja, I would like to collaborate" 
              className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
-            <hr className='w-6/12 text-center'/>
+            <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
             
-            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
-            <hr className='w-6/12 text-center'/>
+            <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons" 
+            className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
+            <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
 
             <a href="#about" className="py-5 px-3 text-white hover:text-greenWashed">ABOUT US</a>
-            <hr className='w-6/12 text-center'/>
+            <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
 
             <a href="#faq" className="py-5 px-3 text-white hover:text-greenWashed">FAQ</a>
-            <hr className='w-6/12 text-center'/>
+            <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
 
-            <a href="#" className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
-            <hr className='w-6/12 text-center'/>
+            <a href="https://tatraja-art.gitbook.io/drawing-with-light-nft-by-tatraja/" target='_blank' rel='noreferrer' 
+            className="py-5 px-3 text-white hover:text-greenWashed">WHITEPAPER</a>
+            
 
           </div>
         </div>
