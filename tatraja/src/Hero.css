@@ -52,18 +52,6 @@
   z-index: -1;
 }
 
-.foreground-sm{
-  position: absolute;
-  bottom:0;
-  display: none;
-
-}
-
-.midground-sm{
-  position: absolute;
-  bottom:4em;
-  display: none;
-}
 
 .cont {
  width: 100%;

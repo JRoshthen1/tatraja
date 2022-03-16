@@ -64,6 +64,7 @@ useEffect(() => {
   <ellipse className="ball ball004" cx="158.099" cy="743.965" rx="8.09947" ry="7.96504"  fill="white"></ellipse>
 </svg>
 
+
     <div className='text-white absolute -top-10 left-10 pl-2 w-64 font-fredericka bg-darkBlue bg-opacity-70 rounded-4xl'>
     <h1 className='text-5xl mb-4'>Vision</h1>
     <p className='font-nunito text-sm'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>

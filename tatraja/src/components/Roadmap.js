@@ -64,6 +64,7 @@ useEffect(() => {
   <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
+    
 <div className='text01 absolute top-[15%] left-40 pl-6 border-l border-darkGreen border-opacity-40 bg-darkBlue bg-opacity-70'>
 <h1 className='text-8xl w-72 font-fredericka'>Vision</h1>
 <p className='text-sm w-72 font-nunito m-3'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>
