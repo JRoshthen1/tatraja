@@ -35,8 +35,8 @@ function Footer() {
 
                     <div className='flex flex-row space-x-5 justify-center text-xs mt-4 text-darkestGray font-nunito'> {/* Copyright */}
                         <p className="copyright">Copyright &copy; {year} Tatraja | All Rights Reserved</p>
-                        <a href='https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md' target='_blank' rel="noreferrer" className='underline'>Terms</a>
-                        <a href='https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md' target='_blank' rel="noreferrer" className='underline'>Privacy Policy</a>
+                        <a href='#' target='_blank' className='underline'>Terms</a>
+                        <a href='#' target='_blank' className='underline'>Privacy Policy</a>
                     </div>
                 </div>
 

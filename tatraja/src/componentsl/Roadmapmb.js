@@ -1,3 +1,4 @@
+import '../slideshow.css';
 import React from 'react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -23,8 +24,6 @@ useEffect(() => {
   .to(".ball002", {}, 0.5) 
   .to(".ball003", {}, 1.5)
   .to(".ball004", {}, 3.7)
-
-  // eslint-disable-next-line
   const main = gsap.timeline({
     scrollTrigger: {
       trigger: "#svg",
