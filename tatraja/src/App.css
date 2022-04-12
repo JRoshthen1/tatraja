@@ -16,3 +16,7 @@
 .calcSvg {
     width: calc(100% + 1.3px);
 }
+
+.header-section {
+    margin: 100px auto 0;
+  }

@@ -49,7 +49,7 @@ useEffect(() => {
   
   return (
 
-    <div className=' text-lightestGray relative flex flex-col justify-center items-center'>
+    <div className='text-lightestGray relative flex flex-col justify-center items-center'>
 
 <svg className='w-3/4' id="svg" viewBox="0 0 1412 2037" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -57,10 +57,10 @@ useEffect(() => {
        d="M1225.5 72.0008C1225.5 72.0008 1383.5 285.5 1199 356.5C1014.5 427.5 924.5 648.5 765.5 596.5C606.5 544.5 418.499 559 343.499 700.499C268.5 841.998 -55.9997 943.498 42.4998 795.999C140.999 648.5 204.5 1001 418.5 1001C632.5 1001 687.5 949 798.999 1054.5C910.499 1160 976.356 1180.5 1129 1130C1281.64 1079.5 1439 1368.5 1268.5 1432C1098 1495.5 1188.33 1798.83 1188.33 1798.83" stroke="white" strokeWidth="6" strokeDasharray="25 25"/>
   
   
-  <circle className="ball ball01" r="20" cx="50" cy="100"></circle>
-  <circle className="ball ball02" cx="1072" cy="439" r="30" fill="white" ></circle>
-  <circle className="ball ball03"cx="328" cy="974" r="30" fill="white"></circle>
-  <circle className="ball ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
+  <circle className="invisible fill-white ball01" r="20" cx="50" cy="100"></circle>
+  <circle className="invisible fill-white ball02" cx="1072" cy="439" r="30" fill="white" ></circle>
+  <circle className="invisible fill-white ball03"cx="328" cy="974" r="30" fill="white"></circle>
+  <circle className="invisible fill-white ball04" cx="1223" cy="1449" r="30" fill="white"></circle>
 
 </svg>
     
