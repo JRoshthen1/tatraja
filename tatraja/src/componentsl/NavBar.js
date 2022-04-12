@@ -36,7 +36,7 @@ function NavBar() {
       <div className="hidden md:flex text-lg items-center space-x-1">
         <a href="mailto:mail@tatraja.art?subject=Please attach your portfolio and a small cover letter explaining whou you are and why Tatraja interested you?" 
            className="cursor-pointer py-4 px-3 text-white hover:text-greenWashed">JOIN US</a>
-        <a href="https://redeem.tatraja.art/" target='_blank' rel='noreferrer'
+        <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons"
         className="cursor-pointer py-4 px-3 text-white hover:text-greenWashed">REDEEM</a>
         <a href="#about" className="py-4 px-3 text-white hover:text-greenWashed">ABOUT US</a>
         <a href="#faq" className="py-4 px-3 text-white hover:text-greenWashed">FAQ</a>
@@ -76,7 +76,7 @@ function NavBar() {
              className="py-5 px-3 text-white hover:text-greenWashed">JOIN US</a>
             <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
             
-            <a href="https://redeem.tatraja.art/" target='_blank' rel='noreferrer'
+            <a href="mailto:mail@tatraja.art?subject=Please attach your public key, screenshot of your wallet with your minted NFT and P.O. box or address for delivery. We recomend using proton mail for privacy reasons" 
             className="py-5 px-3 text-white hover:text-greenWashed">REDEEM</a>
             <hr className='w-1/2 text-center border-darkGreen border-opacity-50'/>
 
