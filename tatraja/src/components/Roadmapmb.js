@@ -71,7 +71,7 @@ useEffect(() => {
     <p className='font-nunito text-sm'>Our team is trying to solve the issue of portraing creative people's work and connecting them with either businesses in need of their skills or as our first step, onto a blockchain for everyone to see.</p>
     </div>
 
-    <div className='text-white absolute top-1/3 right-10 pr-2 w-64 font-fredericka text-right bg-darkBlue bg-opacity-70 rounded-4xl'>
+    <div className='text-white absolute top-[30%] right-10 pr-2 w-64 font-fredericka text-right bg-darkBlue bg-opacity-70 rounded-4xl'>
     <h1 className='text-5xl mb-4'>Plan</h1>
     <p className='font-nunito text-sm'>Tatraja logo will soon appear in your country! Our plan is to create a world wide community where people can talk about their skills or dreams, get guidence and find other people with the same interests.</p>
     </div>

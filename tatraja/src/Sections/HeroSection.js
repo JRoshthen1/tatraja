@@ -9,7 +9,7 @@ import mobilesvg from '../svg/hero/mobile.svg'
 function HeroSection() {
 
   return (
-  <div className='wrapper '>
+  <div className='wrapper'>
    <div className="parallax flex flex-col">
      <h1 className='heading absolute text-8xl font-cinzel font-bold text-black'>TATRAJA ART</h1>
     <div className='cloud'><img src={Cloud} alt='parallax background cloud'></img> </div>
