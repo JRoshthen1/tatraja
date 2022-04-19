@@ -7,7 +7,7 @@ function NavBar() {
 
   const [navbarOpen, setNavbarOpen] = useState(false)
 
-/* Handling the toggle */
+// Handling the toggle
   const handleToggle = () => {
     setNavbarOpen(prev => !prev)
     if (navbarOpen === false) {
@@ -15,15 +15,35 @@ function NavBar() {
   }  
   else {
     document.body.style.overflow = '';
-  }
-  
+  } 
 }
+
+
+// Change the color of the navbar on certain scroll position {Doesnt't worok due to parallax}
+
+/* 
+
+  const [color, setColor] = useState(false)
+  const changeColor = () => {
+    if(window.scrollY >= 20) {
+      setColor(true)
+    } else {
+      setColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeColor)
+
+
+  ${color ? "bg-gradient-to-b from-darkBlue to-transparent" : "bg-darkBlue"}
+
+*/
 
 
   return (
 
 //NavBar
-<nav className='bg-darkBlue font-link fixed w-screen shadow-xl z-50'>
+<nav className={` bg-darkBlue font-link fixed shadow-xl w-screen z-50`}>
   <div className="max-w-6xl mx-auto px-4">
     <div className="flex justify-between">
 
@@ -50,15 +70,12 @@ function NavBar() {
 
             <button onClick={handleToggle} className="w-14 h-14 relative focus:outline-none z-50">
                 <div className={`block w-5 absolute left-6 top-1/2 transform text-right -translate-x-1/2 -translate-y-1/2`}>
-                  <span className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "-rotate-45"  : "-translate-y-1.5"}`}></span>
-                  <span className={`block absolute h-0.5 w-5 text-white bg-current transform transition duration-500 ease-in-out ${navbarOpen ? "opacity-0"  : ""}`}></span>
-                  <span className={`block absolute h-0.5 text-white bg-current transform transition duration-200 ease-in-out ${navbarOpen ? "w-7 rotate-45"  : "w-3 translate-y-1.5"}`}></span>
+                  <span className={`${navbarOpen ? "-rotate-45"  : "-translate-y-1.5"} block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out`}></span>
+                  <span className={`${navbarOpen ? "opacity-0"  : ""} block absolute h-0.5 w-5 text-white bg-current transform transition duration-500 ease-in-out `}></span>
+                  <span className={`${navbarOpen ? "w-7 rotate-45"  : "w-3 translate-y-1.5"} block absolute h-0.5 text-white bg-current transform transition duration-200 ease-in-out `}></span>
                 </div>
             </button>     
-                            {/* Reference: 
-                            https://bbbootstrap.com/snippets/tailwind-css-hamburger-menu-animation-82889170
-                            */}
-
+      
 
 {/* Mobile Menu */}
 
